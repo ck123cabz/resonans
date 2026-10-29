@@ -1,0 +1,177 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-06T19:40:00+08:00"
+ },
+ "title": "Resonans",
+ "namespace": "Resonans",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Logos",
+  "Patterns"
+ ],
+ "assetGroups": {
+  "Logos": {
+   "name": "Logos",
+   "tile": "l",
+   "order": [
+    "lockup-horizontal-ink.svg",
+    "lockup-horizontal-air.svg",
+    "lockup-stacked-ink.svg",
+    "lockup-stacked-air.svg",
+    "mark-ink.svg",
+    "mark-air.svg",
+    "mark-root.svg",
+    "mark-small-ink.svg",
+    "mark-small-air.svg",
+    "wordmark-ink.svg",
+    "wordmark-air.svg",
+    "icon-app.svg",
+    "favicon.svg"
+   ],
+   "files": {
+    "lockup-horizontal-ink.svg": {
+     "name": "lockup-horizontal-ink.svg",
+     "blob": "7afbc1853115ea1379acc3d8fa587747",
+     "size": 29716,
+     "type": "image/svg+xml"
+    },
+    "lockup-horizontal-air.svg": {
+     "name": "lockup-horizontal-air.svg",
+     "blob": "b15aac3a321aa924c1c35921152a2226",
+     "size": 29716,
+     "type": "image/svg+xml"
+    },
+    "lockup-stacked-ink.svg": {
+     "name": "lockup-stacked-ink.svg",
+     "blob": "fe368dd1c64ad9bfe44a770255c80b7f",
+     "size": 29706,
+     "type": "image/svg+xml"
+    },
+    "lockup-stacked-air.svg": {
+     "name": "lockup-stacked-air.svg",
+     "blob": "c22b5e0c4bbcb675efc65b01db408296",
+     "size": 29706,
+     "type": "image/svg+xml"
+    },
+    "mark-ink.svg": {
+     "name": "mark-ink.svg",
+     "blob": "8e3a256b87fda14e75d542f385e301d8",
+     "size": 24058,
+     "type": "image/svg+xml"
+    },
+    "mark-air.svg": {
+     "name": "mark-air.svg",
+     "blob": "f0efccb3e756b3ad6b3c3f491186c3c6",
+     "size": 24058,
+     "type": "image/svg+xml"
+    },
+    "mark-root.svg": {
+     "name": "mark-root.svg",
+     "blob": "4d0f5b675a5d6cb11ea166d3cc00e964",
+     "size": 24058,
+     "type": "image/svg+xml"
+    },
+    "mark-small-ink.svg": {
+     "name": "mark-small-ink.svg",
+     "blob": "e45098791755ef80560a1b972e62bddc",
+     "size": 24561,
+     "type": "image/svg+xml"
+    },
+    "mark-small-air.svg": {
+     "name": "mark-small-air.svg",
+     "blob": "f7574893b9e6806981ac0e25b68608ca",
+     "size": 24561,
+     "type": "image/svg+xml"
+    },
+    "wordmark-ink.svg": {
+     "name": "wordmark-ink.svg",
+     "blob": "8ac0b734a6a31e5e8297cf76adf039f5",
+     "size": 5714,
+     "type": "image/svg+xml"
+    },
+    "wordmark-air.svg": {
+     "name": "wordmark-air.svg",
+     "blob": "3ec44d927228b2222d18b570d9dd2b7c",
+     "size": 5714,
+     "type": "image/svg+xml"
+    },
+    "icon-app.svg": {
+     "name": "icon-app.svg",
+     "blob": "a269f6338e4362708c164197ab094522",
+     "size": 24174,
+     "type": "image/svg+xml"
+    },
+    "favicon.svg": {
+     "name": "favicon.svg",
+     "blob": "80b3385c7b344f2d81116b3767583c8c",
+     "size": 24675,
+     "type": "image/svg+xml"
+    }
+   }
+  },
+  "Patterns": {
+   "name": "Patterns",
+   "tile": "m",
+   "order": [
+    "mode-1-3.svg",
+    "mode-1-5.svg",
+    "mode-3-5.svg",
+    "mode-1-7.svg",
+    "mode-3-7.svg",
+    "mode-5-7.svg"
+   ],
+   "files": {
+    "mode-1-3.svg": {
+     "name": "mode-1-3.svg",
+     "blob": "da65b98006b4c677fd90645f8d9231aa",
+     "size": 148766,
+     "type": "image/svg+xml"
+    },
+    "mode-1-5.svg": {
+     "name": "mode-1-5.svg",
+     "blob": "482f7d36c71a44181b3d1c82f4a0c421",
+     "size": 221896,
+     "type": "image/svg+xml"
+    },
+    "mode-3-5.svg": {
+     "name": "mode-3-5.svg",
+     "blob": "b8d42c94197b4d1ea638db154e8247de",
+     "size": 248000,
+     "type": "image/svg+xml"
+    },
+    "mode-1-7.svg": {
+     "name": "mode-1-7.svg",
+     "blob": "0fad3b87f1ebd5aa9ee5c907008ff381",
+     "size": 288105,
+     "type": "image/svg+xml"
+    },
+    "mode-3-7.svg": {
+     "name": "mode-3-7.svg",
+     "blob": "354950f0abfcffa5d832baa183e77ca4",
+     "size": 309219,
+     "type": "image/svg+xml"
+    },
+    "mode-5-7.svg": {
+     "name": "mode-5-7.svg",
+     "blob": "2aeb0461c43a7fbaed7ad7f483d63519",
+     "size": 343500,
+     "type": "image/svg+xml"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "sections": []
+ },
+ "lastChange": {
+  "by": "Christian Cabaluna",
+  "at": "2026-10-06T19:40:00+08:00",
+  "via": "Claude Code",
+  "note": "First version: tokens derived from A 440 Hz, 7 components, logos and patterns."
+ }
+}

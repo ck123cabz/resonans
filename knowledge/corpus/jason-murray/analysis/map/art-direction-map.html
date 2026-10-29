@@ -1,0 +1,379 @@
+<title>Art direction map</title>
+<meta name="job" content="show">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a row of named nodes on top, example images below, lines joining each node to the work that uses it. Detail rail on the right. */
+:root{
+  color-scheme:dark;
+  --bg-0:#0C0F16;--bg-1:#141824;--bg-2:#1C2231;--bg-3:#252C3F;
+  --stroke:#3A4258;--stroke-subtle:#2C3347;
+  --heading:#EDEFF4;--body:#C0C5D1;--sub:#8189A0;
+  --accent:#DEA750;--accent-ink:#2B1604;
+  --g-diff:#E5654F;--g-group:#6499E8;--g-seq:#DEA750;--g-pred:#4CAF74;--g-none:#8189A0;
+  --shadow:0 4px 8px rgba(0,0,0,.25);
+  --f-s:"Inter",system-ui,sans-serif;--f-v:"Newsreader",Georgia,serif;--f-r:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  color-scheme:light;
+  --bg-0:#FBF9F4;--bg-1:#F4F1E9;--bg-2:#FFFFFF;--bg-3:#EFEBE0;
+  --stroke:#D9D3C4;--stroke-subtle:#E7E2D6;
+  --heading:#1C1A17;--body:#363229;--sub:#6E675A;
+  --accent:#8E500E;--accent-ink:#FCF7EC;
+  --g-diff:#C2321F;--g-group:#1F5FBF;--g-seq:#8E500E;--g-pred:#186B37;--g-none:#6E675A;
+  --shadow:0 4px 8px rgba(28,26,23,.15);
+}}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg-0:#FBF9F4;--bg-1:#F4F1E9;--bg-2:#FFFFFF;--bg-3:#EFEBE0;
+  --stroke:#D9D3C4;--stroke-subtle:#E7E2D6;
+  --heading:#1C1A17;--body:#363229;--sub:#6E675A;
+  --accent:#8E500E;--accent-ink:#FCF7EC;
+  --g-diff:#C2321F;--g-group:#1F5FBF;--g-seq:#8E500E;--g-pred:#186B37;--g-none:#6E675A;
+  --shadow:0 4px 8px rgba(28,26,23,.15);
+}
+*{box-sizing:border-box}
+body{background:var(--bg-0);color:var(--body);font:14px/1.5 var(--f-s);margin:0}
+.wrap{max-width:1480px;margin:0 auto;padding-inline:16px;padding-block:24px 64px;display:flex;flex-direction:column;gap:24px}
+header.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between}
+h1{font:500 33px/1.2 var(--f-v);letter-spacing:-.01em;color:var(--heading);margin:0;text-wrap:balance}
+.stamp{font:13px/1.4 var(--f-r);color:var(--sub)}
+.lede{max-width:65ch;margin:4px 0 0;color:var(--body)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--stroke);border-radius:8px;overflow:hidden}
+.seg button{background:transparent;border:0;color:var(--body);font:500 13px var(--f-s);padding:8px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--stroke);background:transparent;color:var(--body);border-radius:999px;padding:5px 10px;font:500 12px var(--f-s);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--bg-3);border-color:var(--heading);color:var(--heading)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--c,var(--g-none));flex:none}
+input[type=search],textarea{background:var(--bg-1);border:1px solid var(--stroke);border-radius:8px;color:var(--heading);font:14px var(--f-s);padding:8px 10px}
+input[type=search]{width:200px;max-width:100%}
+button:focus-visible,input:focus-visible,textarea:focus-visible,.node:focus-visible,.ex:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.count{font:13px var(--f-r);color:var(--sub);margin-left:auto}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px;align-items:start}
+@media (max-width:980px){.main{grid-template-columns:minmax(0,1fr)}}
+.stage{position:relative;background:var(--bg-1);border:1px solid var(--stroke-subtle);border-radius:12px;padding:16px;min-width:0}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.nodes{position:relative;display:flex;flex-direction:column;gap:12px}
+.grp{display:flex;flex-direction:column;gap:6px}
+.cap{font:500 10px/1.4 var(--f-s);text-transform:uppercase;letter-spacing:.08em;color:var(--sub);display:flex;align-items:center;gap:6px}
+.row{display:flex;flex-wrap:wrap;gap:6px}
+.node{position:relative;border:1px solid var(--stroke);background:var(--bg-2);color:var(--heading);border-radius:999px;padding:5px 10px 5px 8px;font:500 12px var(--f-s);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.node .n{font:11px var(--f-r);color:var(--sub)}
+.node.low{border-style:dashed}
+.node.empty{opacity:.55}
+.node.on{background:var(--c,var(--accent));border-color:var(--c,var(--accent));color:var(--bg-0)}
+.node.on .n,.node.on .dot{color:var(--bg-0);background:var(--bg-0)}
+.node.on .n{background:transparent}
+.node.dim{opacity:.3}
+.node.hit{box-shadow:0 0 0 2px var(--accent)}
+.gap{height:56px}
+.grid{position:relative;display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px}
+.ex{position:relative;border:1px solid var(--stroke-subtle);background:var(--bg-2);border-radius:8px;overflow:hidden;cursor:pointer;padding:0;aspect-ratio:4/5;max-width:100%;display:flex;align-items:flex-end;color:var(--heading);text-align:left}
+.ex img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ex span{position:relative;font:500 11px/1.25 var(--f-s);padding:6px;width:100%;background:linear-gradient(transparent,var(--bg-0));color:var(--heading)}
+.ex.noimg span{background:none;align-self:center;text-align:center;font:500 13px/1.25 var(--f-v)}
+.ex.added::after{content:"added";position:absolute;top:4px;right:4px;font:10px var(--f-r);background:var(--bg-0);color:var(--sub);border-radius:4px;padding:1px 4px}
+.ex.dim{opacity:.18}
+.ex.on{outline:2px solid var(--accent);outline-offset:1px}
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);display:flex;flex-direction:column;gap:16px;min-width:0}
+@media (max-width:980px){.rail{position:static}}
+.card{background:var(--bg-1);border:1px solid var(--stroke-subtle);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card h2{font:600 16px/1.3 var(--f-s);color:var(--heading);margin:0}
+.card h3{font:500 20px/1.25 var(--f-v);color:var(--heading);margin:0;text-wrap:balance}
+.card p{margin:0}
+.q{font:400 16px/1.5 var(--f-v);color:var(--heading);border-left:2px solid var(--accent);padding-left:10px}
+.src{font:12px/1.4 var(--f-r);color:var(--sub);overflow-wrap:anywhere}
+.kv{display:grid;grid-template-columns:88px minmax(0,1fr);gap:4px 10px;font-size:13px}
+.kv dt{color:var(--sub)}.kv dd{margin:0;color:var(--heading);overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{border:1px solid var(--stroke);border-radius:999px;background:transparent;color:var(--body);font:12px var(--f-s);padding:3px 8px;cursor:pointer}
+.tag.his{border-color:var(--accent);color:var(--heading)}
+.note{font-size:13px;color:var(--sub)}
+.warn{font-size:13px;border:1px solid var(--stroke);border-radius:8px;padding:8px 10px;color:var(--body)}
+.big{width:100%;border-radius:8px;border:1px solid var(--stroke-subtle)}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;font:600 13px var(--f-s);padding:9px 14px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--stroke)}
+.btn[disabled]{opacity:.5;cursor:default}
+textarea{width:100%;min-height:84px;resize:vertical}
+.ai-out{display:flex;flex-direction:column;gap:8px}
+.ai-item{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 8px;align-items:start;font-size:13px}
+section.fw{display:flex;flex-direction:column;gap:12px}
+section.fw>h2{font:500 26px/1.2 var(--f-v);color:var(--heading);margin:0}
+.fwgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.fwgrid ol,.fwgrid ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:13px}
+.fwgrid b{color:var(--heading);font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--sub)}
+.legend i{font-style:normal;display:inline-flex;gap:6px;align-items:center}
+@media (prefers-reduced-motion:no-preference){.node,.ex{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Art direction map</h1>
+      <p class="lede">Jason Murray's menu of visual choices and his named techniques, each joined to the work that uses it. Pick a name to see the work. Pick a piece of work to see what it is made of.</p>
+    </div>
+    <div class="stamp" id="stamp">2026-10-03 · loading</div>
+  </header>
+
+  <div class="bar" id="bar">
+    <div class="seg" role="group" aria-label="View">
+      <button id="m-tech" aria-pressed="true">Techniques</button>
+      <button id="m-menu" aria-pressed="false">Menu</button>
+    </div>
+    <span id="chips" class="bar"></span>
+    <input type="search" id="q" placeholder="Search names and brands" aria-label="Search">
+    <button class="chip" id="only-his" aria-pressed="false">His examples only</button>
+    <button class="chip" id="clear">Clear</button>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="main">
+    <div class="stage" id="stage">
+      <canvas id="cv" aria-hidden="true"></canvas>
+      <div class="nodes" id="nodes"></div>
+      <div class="gap"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+
+    <aside class="rail">
+      <div class="card" id="detail" aria-live="polite">
+        <h2>Nothing picked</h2>
+        <p class="note">Pick a technique, a menu line or an image. Lines show which work uses which choice.</p>
+        <div class="legend" id="legend"></div>
+      </div>
+
+      <div class="card" id="ai" hidden>
+        <h2>Read a piece of work</h2>
+        <p class="note">Describe an image or a brief, or add a picture. Claude names the techniques and menu lines on this map that fit, and says why.</p>
+        <textarea id="ai-in" placeholder="A print ad: one red shoe on a white plate, knife and fork beside it, no headline"></textarea>
+        <input type="file" id="ai-img" accept="image/*" hidden>
+        <div class="bar">
+          <button class="btn" id="ai-go">Name the techniques</button>
+          <button class="btn ghost" id="ai-stop" hidden>Stop</button>
+        </div>
+        <p class="note" id="ai-status"></p>
+        <div class="ai-out" id="ai-out"></div>
+      </div>
+    </aside>
+  </div>
+
+  <section class="fw">
+    <h2>His frameworks</h2>
+    <div class="fwgrid" id="fw"></div>
+  </section>
+</div>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const GROUPS=[["Differentiate","--g-diff","tell things apart"],["Group","--g-group","tie things together"],["Sequence","--g-seq","order the reading"],["Predict","--g-pred","set up an expectation"],["unknown","--g-none","group not read yet"]];
+const gvar=g=>(GROUPS.find(x=>x[0]===g)||GROUPS[4])[1];
+let D=null, mode="tech", sel=null, groupFilter=null, onlyHis=false, query="", aiHits=new Set();
+const nodeEls=new Map(), exEls=new Map();
+
+function imgPath(e){ if(!e.image) return ""; const base=e.image.replace(/\.[a-z0-9]+$/i,""); return "img/"+(e.image_dir==="frames"?"f/":"c/")+base+".jpg"; }
+function nodesNow(){
+  if(mode==="tech") return D.techniques.map(t=>({id:"t:"+t.id,raw:t,name:t.name,group:t.group||"unknown",low:t.name_confidence==="low",ex:t.examples||[]}));
+  const out=[]; D.menu.forEach(c=>c.lines.forEach(l=>out.push({id:"m:"+c.id+"/"+l.id,raw:l,name:l.name,group:c.category,cat:c,ex:l.examples||[]}))); return out;
+}
+function exVisible(e){
+  if(onlyHis && !e.cited_by_jason) return false;
+  if(query){const s=(e.brand+" "+e.title).toLowerCase(); if(!s.includes(query)) return false;}
+  return true;
+}
+function linksOf(e){ return mode==="tech" ? (e.techniques||[]).map(x=>"t:"+x) : (e.menu_lines||[]).map(x=>[...nodeEls.keys()].find(k=>k.startsWith("m:")&&k.endsWith("/"+x))).filter(Boolean); }
+
+function build(){
+  const N=$("#nodes"), G=$("#grid"); N.textContent=""; G.textContent=""; nodeEls.clear(); exEls.clear();
+  const ns=nodesNow(), groups=new Map();
+  ns.forEach(n=>{ if(!groups.has(n.group)) groups.set(n.group,[]); groups.get(n.group).push(n); });
+  const order = mode==="tech" ? GROUPS.map(g=>g[0]).filter(g=>groups.has(g)) : [...groups.keys()];
+  order.forEach(g=>{
+    const box=el("div","grp"), cap=el("div","cap");
+    if(mode==="tech"){const d=el("span","dot"); d.style.setProperty("--c","var("+gvar(g)+")"); cap.append(d);}
+    cap.append(document.createTextNode(g==="unknown"?"Group not read":g));
+    const row=el("div","row");
+    groups.get(g).forEach(n=>{
+      const b=el("button","node"+(n.low?" low":"")+(n.ex.length?"":" empty"));
+      b.type="button"; b.dataset.id=n.id; b.dataset.group=g;
+      if(mode==="tech") b.style.setProperty("--c","var("+gvar(g)+")");
+      b.append(document.createTextNode(n.name)); b.append(el("span","n",String(n.ex.length)));
+      b.onclick=()=>pick(sel===n.id?null:n.id);
+      row.append(b); nodeEls.set(n.id,{el:b,n});
+    });
+    box.append(cap,row); N.append(box);
+  });
+  D.examples.forEach(e=>{
+    const b=el("button","ex"+(e.cited_by_jason?"":" added")); b.type="button"; b.dataset.id="e:"+e.id;
+    const p=imgPath(e);
+    if(p){const i=new Image(); i.loading="lazy"; i.alt=e.brand+", "+e.title; i.src=p; i.onerror=()=>{i.remove();b.classList.add("noimg")}; b.append(i);} else b.classList.add("noimg");
+    b.append(el("span",null,e.brand)); b.title=e.brand+" · "+e.title;
+    b.onclick=()=>pick(sel==="e:"+e.id?null:"e:"+e.id);
+    G.append(b); exEls.set(e.id,{el:b,e});
+  });
+  chips(); paint();
+}
+function chips(){
+  const C=$("#chips"); C.textContent="";
+  if(mode!=="tech") return;
+  GROUPS.slice(0,4).forEach(([g,v])=>{
+    const b=el("button","chip"); b.type="button"; b.setAttribute("aria-pressed",String(groupFilter===g));
+    const d=el("span","dot"); d.style.setProperty("--c","var("+v+")"); b.append(d,document.createTextNode(g));
+    b.onclick=()=>{groupFilter=groupFilter===g?null:g; chips(); paint();}; C.append(b);
+  });
+}
+function pick(id){ sel=id; aiHits.clear(); paint(); detail(); }
+function paint(){
+  const linkedNodes=new Set(), linkedEx=new Set();
+  if(sel && sel.startsWith("e:")){ const e=exEls.get(sel.slice(2)).e; linksOf(e).forEach(k=>linkedNodes.add(k)); linkedEx.add(e.id); }
+  else if(sel){ const n=nodeEls.get(sel); if(n){ linkedNodes.add(sel); n.n.ex.forEach(x=>linkedEx.add(x)); } }
+  let shown=0;
+  nodeEls.forEach(({el:b,n},k)=>{
+    const gf = mode==="tech" && groupFilter && n.group!==groupFilter;
+    const qf = query && !n.name.toLowerCase().includes(query) && !n.ex.some(x=>{const o=exEls.get(x);return o&&exVisible(o.e)});
+    b.hidden = !!gf; b.classList.toggle("on",k===sel);
+    b.classList.toggle("dim", !!(sel && !linkedNodes.has(k)) || !!qf);
+    b.classList.toggle("hit", aiHits.has(k) || (sel&&sel.startsWith("e:")&&linkedNodes.has(k)));
+  });
+  exEls.forEach(({el:b,e})=>{
+    const vis=exVisible(e); b.hidden=!vis; if(vis) shown++;
+    b.classList.toggle("on",sel==="e:"+e.id);
+    let dim = sel ? !linkedEx.has(e.id) : false;
+    if(!sel && mode==="tech" && groupFilter){ dim = !(e.techniques||[]).some(t=>{const n=nodeEls.get("t:"+t);return n&&n.n.group===groupFilter}); }
+    b.classList.toggle("dim",dim);
+  });
+  $("#count").textContent = nodeEls.size+" "+(mode==="tech"?"techniques":"menu lines")+" · "+shown+" pieces";
+  requestAnimationFrame(draw);
+}
+function draw(){
+  const st=$("#stage"), cv=$("#cv"), r=st.getBoundingClientRect(), dpr=window.devicePixelRatio||1;
+  cv.width=Math.round(r.width*dpr); cv.height=Math.round(r.height*dpr);
+  const x=cv.getContext("2d"); x.setTransform(dpr,0,0,dpr,0,0); x.clearRect(0,0,r.width,r.height);
+  const cs=getComputedStyle(document.documentElement);
+  const col=n=> mode==="tech" ? cs.getPropertyValue(gvar(n.group)).trim() : cs.getPropertyValue("--accent").trim();
+  const pos=e=>{const b=e.getBoundingClientRect();return [b.left-r.left+b.width/2,b.top-r.top]};
+  const line=(a,b,c,alpha,w)=>{const [x1,y1]=a,[x2,y2]=b; x.beginPath(); x.moveTo(x1,y1); const my=(y1+y2)/2; x.bezierCurveTo(x1,my,x2,my,x2,y2); x.strokeStyle=c; x.globalAlpha=alpha; x.lineWidth=w; x.stroke();};
+  nodeEls.forEach(({el:b,n},k)=>{
+    if(b.hidden) return;
+    const bb=b.getBoundingClientRect(), from=[bb.left-r.left+bb.width/2, bb.bottom-r.top];
+    n.ex.forEach(id=>{
+      const o=exEls.get(id); if(!o||o.el.hidden) return;
+      let strong=false;
+      if(sel){ strong = (sel===k) || (sel==="e:"+id); if(!strong) return; }
+      else if(mode==="tech" && groupFilter && n.group!==groupFilter) return;
+      line(from,pos(o.el),col(n), strong?.9:.16, strong?1.6:1);
+    });
+  });
+  x.globalAlpha=1;
+}
+function tagBtn(label,id,his){ const b=el("button","tag"+(his?" his":""),label); b.type="button"; b.onclick=()=>pick(id); return b; }
+function detail(){
+  const d=$("#detail"); d.textContent="";
+  if(!sel){ d.append(el("h2",null,"Nothing picked"), el("p","note","Pick a technique, a menu line or an image. Lines show which work uses which choice.")); legend(d); return; }
+  if(sel.startsWith("e:")){
+    const e=exEls.get(sel.slice(2)).e, p=imgPath(e);
+    d.append(el("h2",null,e.brand)); d.append(el("h3",null,e.title||""));
+    if(p){const i=new Image(); i.className="big"; i.alt=e.brand+", "+e.title; i.src=p; i.onerror=()=>i.remove(); d.append(i);}
+    const dl=el("dl","kv"); [["Year",e.year],["Agency",e.agency],["Kind",{real:"Real campaign","student-spec":"Student spec","his-own-work":"His own work","guest-work":"Guest's work",added:"Added to the map"}[e.kind]||e.kind],["Cited by him",e.cited_by_jason?"Yes":"No"],["On his line",{feeling:"Visual feeling",middle:"Between the two",solution:"Visual solution"}[e.spectrum]||""],["Video",e.source_video]].forEach(([k,v])=>{ if(v){dl.append(el("dt",null,k),el("dd",null,String(v)));} });
+    d.append(dl);
+    if(e.his_point) d.append(el("p","q",e.his_point));
+    if(e.record_note) d.append(el("p","warn","The record: "+e.record_note));
+    const his=new Set(e.his_tags||[]), all=e.tag_basis==="his";
+    const t1=el("div","tags"); (e.techniques||[]).forEach(t=>{const n=D.techniques.find(x=>x.id===t); if(n) t1.append(tagBtn(n.name,"t:"+t,all||his.has(t)));});
+    const t2=el("div","tags"); (e.menu_lines||[]).forEach(l=>{ D.menu.forEach(c=>c.lines.forEach(x=>{ if(x.id===l) t2.append(tagBtn(x.name,"m:"+c.id+"/"+x.id,all||his.has(l))); })); });
+    if(t1.childElementCount){ d.append(el("div","cap","Techniques"),t1); }
+    if(t2.childElementCount){ d.append(el("div","cap","Menu lines"),t2); }
+    d.append(el("p","note","An amber outline means he named that tag himself. The rest were tagged while building this map."));
+    return;
+  }
+  const {n}=nodeEls.get(sel), r=n.raw;
+  if(mode==="tech"){
+    d.append(el("h2",null,(n.group==="unknown"?"Group not read":n.group)));
+    d.append(el("h3",null,r.name));
+    if(r.definition){ d.append(el("p","q",r.definition), el("p","src",r.definition_source||"")); }
+    else d.append(el("p","note","He has not published a definition for this one."));
+    if(r.plain) d.append(el("p",null,r.plain));
+    if((r.variables||[]).length){ const t=el("div","tags"); r.variables.forEach(v=>{const s=el("span","tag",v); t.append(s)}); d.append(el("div","cap","Variables"),t); }
+    if(r.name_confidence==="low") d.append(el("p","warn","Name read from a small frame. Spelling is not confirmed."));
+    if(r.group_confidence && r.group_confidence!=="read") d.append(el("p","note","Group is "+(r.group_confidence==="inferred"?"inferred from line colour":"not known")+"."));
+  } else {
+    d.append(el("h2",null,n.cat.category)); d.append(el("h3",null,r.name));
+    if(r.detail) d.append(el("p","q",r.detail));
+    d.append(el("p","src","An Art Direction Menu · Art Direction Techniques You Can Use, 2:48"));
+  }
+  d.append(el("div","cap",n.ex.length+" pieces of work"));
+  const t=el("div","tags"); n.ex.forEach(id=>{const o=exEls.get(id); if(o) t.append(tagBtn(o.e.brand,"e:"+id,o.e.cited_by_jason));}); d.append(t);
+  if(!n.ex.length) d.append(el("p","note","No example on the map yet."));
+}
+function legend(d){
+  const L=el("div","legend");
+  if(mode==="tech") GROUPS.forEach(([g,v,w])=>{const i=el("i"); const s=el("span","dot"); s.style.setProperty("--c","var("+v+")"); i.append(s,document.createTextNode((g==="unknown"?"Not read":g)+": "+w)); L.append(i);});
+  else L.append(el("i",null,"11 headings, 61 lines, read off his slide"));
+  d.append(L);
+}
+function frameworks(){
+  const F=$("#fw"); F.textContent="";
+  (D.frameworks||[]).forEach(f=>{
+    const c=el("div","card"); c.append(el("h2",null,f.name));
+    const ordered=["pyramid","ladder","levels","line"].includes(f.kind), l=el(ordered?"ol":"ul");
+    (f.parts||[]).forEach(p=>{const li=el("li"); li.append(el("b",null,p.name)); if(p.text) li.append(document.createTextNode(" · "+p.text)); l.append(li);});
+    c.append(l); if(f.note) c.append(el("p","note",f.note)); if(f.source) c.append(el("p","src",f.source)); F.append(c);
+  });
+}
+function setMode(m){ mode=m; sel=null; groupFilter=null; aiHits.clear(); $("#m-tech").setAttribute("aria-pressed",String(m==="tech")); $("#m-menu").setAttribute("aria-pressed",String(m==="menu")); build(); detail(); try{localStorage.setItem("adm-mode",m)}catch(e){} }
+
+$("#m-tech").onclick=()=>setMode("tech"); $("#m-menu").onclick=()=>setMode("menu");
+$("#q").oninput=e=>{query=e.target.value.trim().toLowerCase(); paint();};
+$("#only-his").onclick=e=>{onlyHis=!onlyHis; e.currentTarget.setAttribute("aria-pressed",String(onlyHis)); paint();};
+$("#clear").onclick=()=>{sel=null;groupFilter=null;query="";$("#q").value="";aiHits.clear();chips();paint();detail();};
+window.addEventListener("resize",()=>requestAnimationFrame(draw));
+new ResizeObserver(()=>requestAnimationFrame(draw)).observe($("#stage"));
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>requestAnimationFrame(draw));
+
+fetch("ingredient-map.json").then(r=>r.json()).then(d=>{
+  D=d; const cited=d.examples.filter(e=>e.cited_by_jason).length;
+  $("#stamp").textContent=(d.generated||"2026-10-03")+" · "+d.techniques.length+" techniques · 61 menu lines · "+d.examples.length+" pieces, "+cited+" cited by him";
+  let m="tech"; try{m=localStorage.getItem("adm-mode")||"tech"}catch(e){}
+  if(location.hash==="#menu") m="menu";
+  frameworks(); setMode(m==="menu"?"menu":"tech");
+}).catch(()=>{ $("#stamp").textContent="Map data did not load"; });
+
+/* Ask Claude: names techniques for a described or uploaded piece of work */
+(async function(){
+  if(!window.claude||!window.claude.use) return;
+  const sample=await window.claude.use("sample"); if(!sample) return;
+  const card=$("#ai"), out=$("#ai-out"), status=$("#ai-status"), go=$("#ai-go"), stop=$("#ai-stop"), file=$("#ai-img");
+  card.hidden=false;
+  const caps=await sample.limits().catch(()=>null);
+  if(caps&&caps.images){ file.hidden=false; file.accept=caps.images.mediaTypes.join(","); }
+  let ctl=null; stop.onclick=()=>ctl&&ctl.abort();
+  const copy={rate_limited:"Too many requests. Try again in a while.",session_expired:"Sign in again, then retry.",image_rejected:"That picture could not be read. Try a JPEG or PNG.",refused:"Claude declined this one. Change the description.",invalid_json:"The answer came back unreadable. Try again.",empty_completion:"No answer came back. Shorten the description."};
+  go.onclick=async()=>{
+    const text=$("#ai-in").value.trim(), img=file.files&&file.files[0];
+    if(!text&&!img){ status.textContent="Describe the work or add a picture first."; return; }
+    if(!D) return;
+    ctl=new AbortController(); go.disabled=true; stop.hidden=false; out.textContent=""; status.textContent="Thinking…";
+    const techs=D.techniques.map(t=>t.id+" | "+t.name+" | "+(t.definition||t.plain||"")).join("\n");
+    const lines=[]; D.menu.forEach(c=>c.lines.forEach(l=>lines.push(l.id+" | "+c.category+" > "+l.name+(l.detail?" ("+l.detail+")":""))));
+    const prompt="You are reading one piece of visual work the way art director Jason Murray teaches: name the visual techniques and the art direction menu lines that are doing the work, with restraint. He says a strong piece has 2 to 3 standout ingredients.\n\nTECHNIQUES (id | name | meaning):\n"+techs+"\n\nMENU LINES (id | heading > line):\n"+lines.join("\n")+"\n\nTHE WORK"+(img?" (an image is attached)":"")+":\n"+(text||"See the attached image.")+"\n\nReply with only JSON: {\"standout\":[{\"kind\":\"technique\"|\"menu\",\"id\":\"<id from the lists>\",\"why\":\"one plain sentence naming what in the work shows it\"}],\"also_present\":[same shape],\"feeling_or_solution\":\"visual feeling\"|\"between\"|\"visual solution\",\"spectrum_why\":\"one sentence\",\"try_next\":[{\"kind\":\"technique\",\"id\":\"<id>\",\"why\":\"what it would add\"}]}. Use 2 to 3 items in standout, at most 4 in also_present, at most 2 in try_next. Use only ids from the lists.";
+    try{
+      const res=await sample.json(prompt,{signal:ctl.signal,images:img||undefined});
+      status.textContent=""; aiHits.clear();
+      const key=o=>{ if(!o||!o.id) return null; if(o.kind==="menu") return [...nodeEls.keys()].find(k=>k.startsWith("m:")&&k.endsWith("/"+o.id))||("m:?/"+o.id); return "t:"+o.id; };
+      const nameOf=o=>{ if(o.kind==="menu"){let n="";D.menu.forEach(c=>c.lines.forEach(l=>{if(l.id===o.id)n=c.category+" · "+l.name}));return n;} const t=D.techniques.find(x=>x.id===o.id); return t?t.name:""; };
+      const block=(title,arr)=>{ if(!Array.isArray(arr)||!arr.length) return; out.append(el("div","cap",title)); arr.forEach(o=>{ const nm=nameOf(o); if(!nm) return; const row=el("div","ai-item"); const b=el("button","tag his",nm); b.type="button"; b.onclick=()=>{ if(o.kind==="menu"&&mode!=="menu") setMode("menu"); if(o.kind!=="menu"&&mode!=="tech") setMode("tech"); const k=key(o); if(nodeEls.has(k)) pick(k); }; row.append(b,el("span",null,String(o.why||""))); out.append(row); const k=key(o); if(k) aiHits.add(k); }); };
+      block("Standout",res.standout); block("Also present",res.also_present);
+      if(res.feeling_or_solution){ out.append(el("div","cap","On his line")); out.append(el("p",null,String(res.feeling_or_solution)+". "+String(res.spectrum_why||""))); }
+      block("Try next",res.try_next);
+      sel=null; paint();
+    }catch(e){
+      if(e&&["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(e.code)){ card.hidden=true; }
+      else if(e&&e.code==="images_unavailable"){ file.hidden=true; status.textContent="Pictures are not available here. Describe the work in words."; }
+      else if(e&&e.code==="cancelled"){ status.textContent=""; }
+      else status.textContent=(e&&copy[e.code])||"The request failed. Try again.";
+    }finally{ go.disabled=false; stop.hidden=true; }
+  };
+})();
+})();
+</script>

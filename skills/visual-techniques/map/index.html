@@ -1,0 +1,73 @@
+<title>Visual technique map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="job" content="show">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a specimen sheet. References run down the side, techniques across, grouped by the job they do for the eye. */
+:root {
+  --paper: #eef0f1; --ink: #16181b; --muted: #5d646c; --rule: #cfd4d8; --card: #ffffff;
+  --differentiate: #d9480f; --group: #0b7285; --sequence: #5c7f0d; --predict: #c2255c;
+  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #121417; --ink: #e8eaed; --muted: #9aa1a9; --rule: #2c3136; --card: #1b1e22;
+  --differentiate: #ff7a3d; --group: #3bc0d4; --sequence: #a3cf3e; --predict: #f06595; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #121417; --ink: #e8eaed; --muted: #9aa1a9; --rule: #2c3136; --card: #1b1e22;
+  --differentiate: #ff7a3d; --group: #3bc0d4; --sequence: #a3cf3e; --predict: #f06595; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font: 15px/1.5 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; }
+main { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+main > * { min-width: 0; }
+h1 { font: 700 clamp(28px, 5vw, 44px)/1.05 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 500 13px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.brief { max-width: 65ch; margin: 8px 0 0; color: var(--muted); }
+.idea { font: 500 18px/1.4 var(--display); margin: 6px 0 0; max-width: 60ch; }
+.jobs { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.job { border-top: 4px solid var(--c); padding-top: 8px; min-width: 0; }
+.job b { font: 700 28px/1 var(--display); display: block; }
+.job span { font: 500 12px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.job p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+.job.set { background: var(--card); padding: 8px 10px 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 500 13px/1 var(--mono); border: 1.5px solid var(--c, var(--ink)); color: var(--ink); background: var(--card); padding: 7px 10px; border-radius: 99px; cursor: pointer; }
+.chip.dissent { border-style: dashed; --c: var(--muted); cursor: default; }
+.wrap { overflow-x: auto; border: 1px solid var(--rule); background: var(--card); }
+table { border-collapse: collapse; font-size: 12px; }
+th, td { border-bottom: 1px solid var(--rule); padding: 0; }
+th.t { vertical-align: bottom; height: 180px; width: 26px; cursor: pointer; }
+th.t div { writing-mode: vertical-rl; transform: rotate(180deg); font: 500 11.5px/1 var(--mono); padding: 8px 6px; white-space: nowrap; color: var(--muted); }
+th.t.used div { color: var(--ink); }
+th.t.short { background: color-mix(in srgb, var(--c) 14%, transparent); }
+th.t.sel div, th.r.sel { color: var(--c, var(--ink)); font-weight: 700; }
+tr.jobrow th { height: 6px; background: var(--c); }
+th.r { text-align: left; padding: 6px 10px 6px 6px; cursor: pointer; font: 500 12px/1.25 var(--body); min-width: 210px; position: sticky; left: 0; background: var(--card); }
+th.r img { width: 44px; height: 44px; object-fit: cover; float: left; margin-right: 8px; }
+td { text-align: center; width: 26px; height: 56px; cursor: pointer; }
+td.on::after { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+td.draft.on::after { background: transparent; border: 2px solid var(--c); }
+.detail { display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: 24px; background: var(--card); border: 1px solid var(--rule); padding: 20px; }
+.detail img.big { width: 100%; border: 1px solid var(--rule); }
+.detail h3 { font: 700 26px/1.1 var(--display); margin: 0 0 6px; }
+.detail .src { font: 400 12px/1.4 var(--mono); color: var(--muted); }
+.detail ul { padding: 0; list-style: none; display: grid; gap: 10px; }
+.detail li { border-left: 3px solid var(--c); padding-left: 10px; }
+.thumbs { display: flex; flex-wrap: wrap; gap: 8px; }
+.thumbs img { width: 72px; height: 72px; object-fit: cover; cursor: pointer; }
+.gaps li { border-left-color: var(--rule); }
+.credit { font-size: 12px; color: var(--muted); max-width: 80ch; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+@media (max-width: 700px) { .detail { grid-template-columns: minmax(0, 1fr); padding: 14px; } th.r { min-width: 150px; } }
+</style>
+<main>
+  <header><h1 id="title">Visual technique map</h1><p class="brief" id="brief"></p><p class="idea" id="idea"></p></header>
+  <section><h2>Reads by job</h2><div class="jobs" id="jobs"></div></section>
+  <section id="shortSec" hidden><h2>Shortlist</h2><div class="chips" id="short"></div></section>
+  <section><h2>References × techniques</h2><div class="wrap"><table id="matrix"></table></div></section>
+  <section class="detail" id="detail" aria-live="polite"></section>
+  <section id="gapSec" hidden><h2>Moves none of the 30 names</h2><ul class="gaps" id="gaps"></ul></section>
+  <p class="credit">Technique names and the four jobs are Jason Murray's public labels, from his Shorts and the Modern Art Direction newsletter; quoted definitions carry their source. Definitions marked "ours" were written for this tool. This is not his Iris app.</p>
+</main>
+<script src="app.js"></script>

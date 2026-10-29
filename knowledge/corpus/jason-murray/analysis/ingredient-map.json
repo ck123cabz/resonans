@@ -1,0 +1,5295 @@
+{
+ "generated": "2026-10-03",
+ "menu": [
+  {
+   "id": "color-light",
+   "category": "Color & Light",
+   "lines": [
+    {
+     "id": "color-palette",
+     "name": "Color palette",
+     "detail": "",
+     "controls": "Which few colours the work is allowed to use, and so what it is recognised by from across a street.",
+     "examples": [
+      "polaroid-analog-life",
+      "swet-athletic-mood-board",
+      "la28-superbloom",
+      "wicked-pink-vs-green",
+      "pantone-bon-iver-fable-salmon",
+      "gap-young-miko",
+      "nike-football-federation-collabs",
+      "oakley-delusion-is-vision",
+      "amazon-bil-kelloggs-wind-down-club",
+      "amazon-bil-kraft-funexpected",
+      "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+      "amazon-bil-vitaminwater-sonic-nourishment",
+      "apple-ipod-silhouettes",
+      "brooks-its-your-run",
+      "champion-energy-bbdo",
+      "lego-imagine-shadows",
+      "mcdonalds-follow-the-arches",
+      "nick-stokes-babe-town",
+      "pentagram-performance-gov-midjourney",
+      "smith-diction-visual-electric",
+      "sony-bravia-balls",
+      "spec-dollar-shave-club-horror-posters",
+      "spec-duolingo-duo-wingwoman",
+      "qdoba-portion-pledge",
+      "coppertone-sucks-to-get-roasted",
+      "laffy-taffy-mouthful-of-fun",
+      "kfc-fck",
+      "okcupid-dtf",
+      "mcdonalds-doordash-fast-stripes",
+      "jacquemus-yellow-circle-poster",
+      "gucci-and-beyond-fw17",
+      "hm-come-together",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "contrast",
+     "name": "Contrast",
+     "detail": "high vs low",
+     "controls": "How far apart the lightest and darkest parts sit, which sets how hard or soft the image hits.",
+     "examples": [
+      "rosalia-music-video",
+      "apple-ipod-silhouettes",
+      "nike-winning-isnt-for-everyone",
+      "oatly-hand-drawn-copy",
+      "wicked-pink-vs-green",
+      "squarespace-emma-stone",
+      "under-armour-rule-yourself-phelps"
+     ]
+    },
+    {
+     "id": "lighting",
+     "name": "Lighting",
+     "detail": "harsh, soft, natural, theatrical",
+     "controls": "Where the light comes from and how hard it is, which tells the viewer what kind of moment this is.",
+     "examples": [
+      "diesel-enjoy-before-returning",
+      "amazon-bil-kelloggs-wind-down-club",
+      "champion-energy-bbdo",
+      "burger-king-moldy-whopper",
+      "levis-go-forth",
+      "under-armour-rule-yourself-phelps"
+     ]
+    },
+    {
+     "id": "texture",
+     "name": "Texture",
+     "detail": "grain, gloss, paper, noise",
+     "controls": "What the surface of the image feels like to the eye: rough, slick, printed, dusty.",
+     "examples": [
+      "nike-rip-the-script",
+      "spotify-fan-life",
+      "decathlon-macro-landscapes",
+      "metro-colombia-macro-texture",
+      "roland-garros-2015",
+      "lurpak-cooking-landscapes",
+      "airbnb-buck-mini-worlds",
+      "smith-diction-visual-electric",
+      "spec-dollar-shave-club-horror-posters",
+      "spec-hydro-flask-bottle-scars",
+      "mako-editorial-portraits",
+      "burger-king-moldy-whopper",
+      "levis-go-forth"
+     ]
+    },
+    {
+     "id": "depth-of-field",
+     "name": "Depth of field",
+     "detail": "focus vs blur",
+     "controls": "How much of the picture is sharp, which decides what the viewer is allowed to look at.",
+     "examples": [
+      "arcteryx-playdate",
+      "champion-energy-bbdo"
+     ]
+    },
+    {
+     "id": "grade-or-finish",
+     "name": "Grade or finish",
+     "detail": "film emulation, warm vs cool, faded vs punchy",
+     "controls": "The overall colour treatment laid over the picture after it is shot.",
+     "examples": [
+      "swet-athletic-mood-board",
+      "spotify-fan-life",
+      "squarespace-emma-stone",
+      "skylrk-brand-imagery",
+      "guinness-surfer",
+      "levis-go-forth",
+      "under-armour-rule-yourself-phelps"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "composition-framing",
+   "category": "Composition & Framing",
+   "lines": [
+    {
+     "id": "cropping",
+     "name": "Cropping",
+     "detail": "",
+     "controls": "Where the frame cuts the subject, and what is left for the viewer to finish.",
+     "examples": [
+      "time-red-border",
+      "mcdonalds-follow-the-arches",
+      "spec-dollar-shave-club-horror-posters",
+      "twitter-hashtag-ooh",
+      "road-safety-headless-driver",
+      "vogue-eye-and-lips-cover",
+      "british-airways-windows"
+     ]
+    },
+    {
+     "id": "camera-angle",
+     "name": "Camera angle",
+     "detail": "eye-level, overhead, low",
+     "controls": "Where the camera stands, which makes the subject an equal, a specimen or a giant.",
+     "examples": [
+      "champion-energy-bbdo",
+      "wmf-sharper-than-you-think",
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "symmetry-vs-asymmetry",
+     "name": "Symmetry vs asymmetry",
+     "detail": "",
+     "controls": "Whether the two halves of the frame mirror each other or pull against each other.",
+     "examples": [
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "foreground-background",
+     "name": "Foreground / background",
+     "detail": "",
+     "controls": "What sits in front and what sits behind, and how the two layers talk.",
+     "examples": [
+      "diesel-enjoy-before-returning",
+      "spec-hydro-flask-bottle-scars"
+     ]
+    },
+    {
+     "id": "focal-point",
+     "name": "Focal point",
+     "detail": "what the eye hits first",
+     "controls": "The one spot the eye goes to first.",
+     "examples": [
+      "stabilo-highlight-the-remarkable"
+     ]
+    },
+    {
+     "id": "hierarchy-of-attention",
+     "name": "Hierarchy of attention",
+     "detail": "what leads, what recedes",
+     "controls": "The order in which the viewer reads the parts of the picture.",
+     "examples": [
+      "stabilo-highlight-the-remarkable"
+     ]
+    },
+    {
+     "id": "negative-space",
+     "name": "Negative space",
+     "detail": "",
+     "controls": "How much of the frame is left empty, and what that emptiness says about the subject.",
+     "examples": [
+      "apple-shot-on-iphone",
+      "dove-campaign-for-real-beauty",
+      "lego-imagine-shadows",
+      "volkswagen-think-small",
+      "wmf-sharper-than-you-think",
+      "the-lobster-posters",
+      "jacquemus-yellow-circle-poster",
+      "vogue-eye-and-lips-cover",
+      "benetton-toscani-campaigns",
+      "british-airways-windows",
+      "burger-king-moldy-whopper",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "scale",
+     "name": "Scale",
+     "detail": "how big or small things feel",
+     "controls": "How big or small a thing feels next to the things around it.",
+     "examples": [
+      "amazon-bil-kraft-funexpected",
+      "apple-shot-on-iphone",
+      "lego-build-the-future",
+      "sony-bravia-balls",
+      "twitter-hashtag-ooh",
+      "volkswagen-think-small",
+      "sudafed-heavy-head-cold",
+      "loewe-pumpkin-ad",
+      "decathlon-macro-landscapes",
+      "airbnb-buck-mini-worlds"
+     ]
+    },
+    {
+     "id": "density-vs-minimalism",
+     "name": "Density vs minimalism",
+     "detail": "",
+     "controls": "How many things are in the frame at once.",
+     "examples": [
+      "nike-football-federation-collabs",
+      "volkswagen-think-small",
+      "gwm-tank-500-warriors",
+      "laffy-taffy-mouthful-of-fun",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "repetition-or-pattern",
+     "name": "Repetition or pattern",
+     "detail": "",
+     "controls": "What repeats inside one image or across a series, so a viewer who has seen two ads looks for it in the third.",
+     "examples": [
+      "la28-superbloom",
+      "absolut-bottle-campaign",
+      "amazon-bil-vitaminwater-sonic-nourishment",
+      "dove-real-beauty-sketches",
+      "sony-bravia-balls",
+      "gwm-tank-500-warriors",
+      "inside-the-blind-iris",
+      "british-airways-windows"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "imagery",
+   "category": "Imagery",
+   "lines": [
+    {
+     "id": "photography-vs-illustration-vs-cg",
+     "name": "Photography vs illustration vs CG",
+     "detail": "",
+     "controls": "Which medium makes the picture.",
+     "examples": [
+      "coinbase-your-way-out",
+      "airbnb-buck-mini-worlds",
+      "dove-real-beauty-sketches",
+      "jessica-sugarman-i-voted-tattoo",
+      "lego-build-the-future",
+      "nick-stokes-babe-town",
+      "pentagram-performance-gov-midjourney",
+      "smith-diction-visual-electric",
+      "laffy-taffy-mouthful-of-fun",
+      "ivory-homes-animated-short",
+      "apple-mac-mini-claymation"
+     ]
+    },
+    {
+     "id": "stock-vs-shot",
+     "name": "Stock vs shot",
+     "detail": "found vs bespoke",
+     "controls": "Whether the image is found or made for the job.",
+     "examples": [
+      "apple-shot-on-iphone",
+      "smith-diction-visual-electric",
+      "swet-athletic-mood-board"
+     ]
+    },
+    {
+     "id": "real-people-vs-models-vs-characters",
+     "name": "Real people vs models vs characters",
+     "detail": "",
+     "controls": "Who the viewer is looking at: someone like them, someone hired to look good, or someone invented.",
+     "examples": [
+      "dove-campaign-for-real-beauty",
+      "lego-build-the-future",
+      "snickers-youre-not-you",
+      "vogue-eye-and-lips-cover"
+     ]
+    },
+    {
+     "id": "polished-vs-raw",
+     "name": "Polished vs raw",
+     "detail": "",
+     "controls": "How finished the image looks.",
+     "examples": [
+      "spotify-fan-life",
+      "diesel-enjoy-before-returning",
+      "polaroid-analog-life",
+      "spec-hydro-flask-bottle-scars"
+     ]
+    },
+    {
+     "id": "literal-vs-metaphorical",
+     "name": "Literal vs metaphorical",
+     "detail": "",
+     "controls": "Whether the picture shows the thing itself or shows another thing that stands for it.",
+     "examples": [
+      "la28-superbloom",
+      "absolut-bottle-campaign",
+      "lego-imagine-shadows",
+      "stabilo-highlight-the-remarkable",
+      "heinz-no-one-grows-ketchup",
+      "midori-frozen-margarita",
+      "bmw-joy-is-cutting-through-winter",
+      "sudafed-heavy-head-cold",
+      "mcdonalds-doordash-fast-stripes",
+      "road-safety-headless-driver",
+      "hard-rock-rock-in-headphones",
+      "kitkat-bench",
+      "fried-chicken-rocket-plume",
+      "oakley-delusion-is-vision"
+     ]
+    },
+    {
+     "id": "close-up-vs-wide",
+     "name": "Close-up vs wide",
+     "detail": "",
+     "controls": "How near the camera is to the subject.",
+     "examples": [
+      "arcteryx-playdate",
+      "decathlon-macro-landscapes",
+      "lurpak-cooking-landscapes",
+      "burger-king-moldy-whopper"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "casting-talent",
+   "category": "Casting & Talent",
+   "lines": [
+    {
+     "id": "whos-cast",
+     "name": "Who's cast",
+     "detail": "age, look, energy, non-model vs model",
+     "controls": "Which person carries the message, and what the viewer already thinks about them.",
+     "examples": [
+      "apple-ipod-silhouettes",
+      "diesel-enjoy-before-returning",
+      "champion-energy-bbdo",
+      "dove-campaign-for-real-beauty",
+      "nike-just-do-it",
+      "old-spice-the-man-your-man-could-smell-like",
+      "snickers-youre-not-you",
+      "apple-im-a-mac",
+      "adidas-greatest-football-story",
+      "benetton-toscani-campaigns"
+     ]
+    },
+    {
+     "id": "expression-and-gaze",
+     "name": "Expression and gaze",
+     "detail": "to camera vs away",
+     "controls": "What the face is doing and where the eyes point.",
+     "examples": [
+      "mako-editorial-portraits",
+      "on-spike-jonze-zendaya",
+      "dove-campaign-for-real-beauty",
+      "nike-winning-isnt-for-everyone",
+      "old-spice-the-man-your-man-could-smell-like",
+      "arcteryx-playdate",
+      "british-airways-windows"
+     ]
+    },
+    {
+     "id": "gesture-and-body-language",
+     "name": "Gesture and body language",
+     "detail": "",
+     "controls": "What the body says before any copy is read.",
+     "examples": [
+      "mako-editorial-portraits",
+      "oakley-delusion-is-vision",
+      "apple-ipod-silhouettes",
+      "we-can-do-it-poster"
+     ]
+    },
+    {
+     "id": "movement-and-direction-of-talent",
+     "name": "Movement and direction of talent",
+     "detail": "",
+     "controls": "How the person moves, and how much of that was told to them.",
+     "examples": [
+      "apple-ipod-silhouettes",
+      "gap-young-miko",
+      "coinbase-your-way-out",
+      "apple-welcome-home-homepod"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "styling-set",
+   "category": "Styling & Set",
+   "lines": [
+    {
+     "id": "wardrobe",
+     "name": "Wardrobe",
+     "detail": "",
+     "controls": "What people wear.",
+     "examples": [
+      "converse-hockney-joiner",
+      "gap-young-miko",
+      "coinbase-your-way-out",
+      "champion-energy-bbdo",
+      "diesel-enjoy-before-returning",
+      "gucci-and-beyond-fw17",
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "props",
+     "name": "Props",
+     "detail": "",
+     "controls": "The objects in the scene.",
+     "examples": [
+      "wmf-sharper-than-you-think",
+      "lazy-series-reel-cover",
+      "mako-editorial-portraits",
+      "amazon-bil-kelloggs-wind-down-club",
+      "amazon-bil-kraft-funexpected",
+      "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+      "venmo-the-homeless",
+      "midori-frozen-margarita",
+      "hard-rock-rock-in-headphones",
+      "loewe-pumpkin-ad",
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "set-and-location",
+     "name": "Set & location",
+     "detail": "",
+     "controls": "Where the scene happens, built or found.",
+     "examples": [
+      "diesel-enjoy-before-returning",
+      "nike-rip-the-script",
+      "lazy-series-reel-cover",
+      "mako-editorial-portraits",
+      "apple-welcome-home-homepod",
+      "squarespace-emma-stone",
+      "gap-young-miko",
+      "coinbase-your-way-out",
+      "nike-football-federation-collabs",
+      "amazon-bil-kelloggs-wind-down-club",
+      "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+      "nick-stokes-babe-town",
+      "old-spice-the-man-your-man-could-smell-like",
+      "the-ordinary-periodic-fable",
+      "gucci-and-beyond-fw17",
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "era-time-period",
+     "name": "Era / time period",
+     "detail": "",
+     "controls": "Which year the scene looks like it belongs to.",
+     "examples": [
+      "milkbar-melbourne-tribune",
+      "genre-quotation-period-stills",
+      "gucci-and-beyond-fw17",
+      "vacation-sunscreen"
+     ]
+    },
+    {
+     "id": "cultural-references",
+     "name": "Cultural references",
+     "detail": "",
+     "controls": "Which shared stories, symbols or events the scene points at.",
+     "examples": [
+      "nike-football-federation-collabs",
+      "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+      "nike-rip-the-script",
+      "twitter-hashtag-ooh",
+      "zillow-decrypting-realtor-code",
+      "mako-nosferatu-shadow",
+      "we-can-do-it-poster",
+      "the-ordinary-periodic-fable",
+      "gucci-and-beyond-fw17"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "type-graphics",
+   "category": "Type & Graphics",
+   "lines": [
+    {
+     "id": "typeface",
+     "name": "Typeface",
+     "detail": "utility vs expressive",
+     "controls": "Which letters carry the words, and whether they only inform or also add a feeling.",
+     "examples": [
+      "oatly-hand-drawn-copy",
+      "polaroid-analog-life",
+      "arcteryx-playdate",
+      "lazy-series-reel-cover",
+      "nike-acg-endless-attractions",
+      "amazon-bil-kraft-funexpected",
+      "amazon-bil-vitaminwater-sonic-nourishment",
+      "brooks-its-your-run",
+      "nike-rip-the-script",
+      "nike-winning-isnt-for-everyone",
+      "spec-dollar-shave-club-horror-posters",
+      "spec-hydro-flask-bottle-scars",
+      "ef-tours-later-is-now",
+      "qdoba-portion-pledge",
+      "zillow-decrypting-realtor-code",
+      "laffy-taffy-mouthful-of-fun",
+      "levis-go-forth",
+      "the-economist-red-posters",
+      "vacation-sunscreen"
+     ]
+    },
+    {
+     "id": "type-hierarchy",
+     "name": "Type hierarchy",
+     "detail": "",
+     "controls": "Which words are read first, second and last.",
+     "examples": [
+      "nike-winning-isnt-for-everyone",
+      "volkswagen-think-small"
+     ]
+    },
+    {
+     "id": "type-as-image-vs-type-as-support",
+     "name": "Type as image vs type as support",
+     "detail": "",
+     "controls": "Whether the lettering is the picture or sits under one.",
+     "examples": [
+      "oatly-hand-drawn-copy",
+      "okcupid-dtf",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "copy-driven-vs-image-driven",
+     "name": "Copy-driven vs image-driven",
+     "detail": "",
+     "controls": "Whether the words or the picture carry the message.",
+     "examples": [
+      "lego-imagine-shadows",
+      "oatly-hand-drawn-copy",
+      "twitter-hashtag-ooh",
+      "wmf-sharper-than-you-think",
+      "coppertone-sucks-to-get-roasted",
+      "nike-just-do-it",
+      "nike-winning-isnt-for-everyone",
+      "polaroid-analog-life",
+      "qdoba-portion-pledge",
+      "zillow-decrypting-realtor-code",
+      "gwm-tank-500-warriors",
+      "google-year-in-search",
+      "okcupid-dtf",
+      "tinder-it-starts-with-a-swipe",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "alignment",
+     "name": "Alignment",
+     "detail": "",
+     "controls": "Which edge or axis the type lines up on.",
+     "examples": [
+      "gwm-tank-500-warriors",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "grid-vs-anti-grid",
+     "name": "Grid vs anti-grid",
+     "detail": "",
+     "controls": "Whether elements sit on an even structure or are placed off it on purpose.",
+     "examples": [
+      "nothing-light-up-what-matters",
+      "polaroid-analog-life",
+      "volkswagen-think-small",
+      "arcteryx-playdate",
+      "converse-hockney-joiner"
+     ]
+    },
+    {
+     "id": "iconography",
+     "name": "Iconography",
+     "detail": "",
+     "controls": "Which symbols and marks stand in for ideas.",
+     "examples": [
+      "nike-rip-the-script",
+      "twitter-hashtag-ooh",
+      "time-red-border",
+      "absolut-bottle-campaign",
+      "amazon-bil-vitaminwater-sonic-nourishment",
+      "jessica-sugarman-i-voted-tattoo",
+      "mcdonalds-follow-the-arches",
+      "pentagram-performance-gov-midjourney",
+      "spec-duolingo-duo-wingwoman",
+      "kfc-fck"
+     ]
+    },
+    {
+     "id": "frames-borders-containers",
+     "name": "Frames, borders, containers",
+     "detail": "",
+     "controls": "The shapes that hold content and separate it from the rest.",
+     "examples": [
+      "time-red-border",
+      "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+      "polaroid-analog-life",
+      "ef-tours-later-is-now",
+      "google-year-in-search",
+      "nothing-light-up-what-matters"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "visual-references-influence",
+   "category": "Visual References & Influence",
+   "lines": [
+    {
+     "id": "genre-or-world-youre-borrowing-from",
+     "name": "Genre or world you're borrowing from",
+     "detail": "film noir, 90s skate, editorial fashion, brutalist",
+     "controls": "Which existing visual world the work borrows its codes from.",
+     "examples": [
+      "spec-dollar-shave-club-horror-posters",
+      "qdoba-portion-pledge",
+      "genre-quotation-period-stills",
+      "nike-acg-endless-attractions",
+      "adidas-greatest-football-story",
+      "jessica-sugarman-i-voted-tattoo",
+      "nick-stokes-babe-town",
+      "zillow-decrypting-realtor-code",
+      "coinbase-your-way-out",
+      "the-ordinary-periodic-fable",
+      "milkbar-melbourne-tribune",
+      "gucci-and-beyond-fw17"
+     ]
+    },
+    {
+     "id": "era-of-visual-style",
+     "name": "Era of visual style",
+     "detail": "",
+     "controls": "Which period of design or image-making the look comes from.",
+     "examples": [
+      "nike-acg-endless-attractions",
+      "spec-dollar-shave-club-horror-posters",
+      "qdoba-portion-pledge",
+      "mako-editorial-portraits",
+      "vacation-sunscreen"
+     ]
+    },
+    {
+     "id": "homage-vs-originality",
+     "name": "Homage vs originality",
+     "detail": "",
+     "controls": "How openly the work shows where it came from.",
+     "examples": [
+      "metro-colombia-macro-texture",
+      "nike-acg-endless-attractions",
+      "mako-editorial-portraits"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "motion-editing",
+   "category": "Motion & Editing",
+   "lines": [
+    {
+     "id": "pace-and-timing",
+     "name": "Pace and timing",
+     "detail": "",
+     "controls": "How fast things happen and when each beat happens.",
+     "examples": [
+      "nike-make-it-count",
+      "on-spike-jonze-zendaya",
+      "guinness-surfer"
+     ]
+    },
+    {
+     "id": "hold-vs-movement",
+     "name": "Hold vs movement",
+     "detail": "",
+     "controls": "When the frame stays still and when it moves.",
+     "examples": [
+      "guinness-surfer"
+     ]
+    },
+    {
+     "id": "ease-and-weight",
+     "name": "Ease and weight",
+     "detail": "",
+     "controls": "How a movement speeds up and slows down, which makes an object feel heavy or light.",
+     "examples": []
+    },
+    {
+     "id": "transitions-vs-hard-cuts",
+     "name": "Transitions vs hard cuts",
+     "detail": "",
+     "controls": "How one shot hands over to the next.",
+     "examples": [
+      "old-spice-the-man-your-man-could-smell-like",
+      "on-spike-jonze-zendaya"
+     ]
+    },
+    {
+     "id": "camera-movement",
+     "name": "Camera movement",
+     "detail": "",
+     "controls": "Whether the camera travels, and how.",
+     "examples": [
+      "gap-young-miko",
+      "nike-make-it-count",
+      "old-spice-the-man-your-man-could-smell-like",
+      "hm-come-together"
+     ]
+    },
+    {
+     "id": "loops-vs-linear",
+     "name": "Loops vs linear",
+     "detail": "",
+     "controls": "Whether the piece repeats or runs once from start to end.",
+     "examples": []
+    }
+   ]
+  },
+  {
+   "id": "mood",
+   "category": "Mood",
+   "lines": [
+    {
+     "id": "playful-vs-serious",
+     "name": "Playful vs serious",
+     "detail": "",
+     "controls": "How much the work jokes.",
+     "examples": [
+      "amazon-bil-kraft-funexpected",
+      "brooks-its-your-run",
+      "nick-stokes-babe-town",
+      "nike-winning-isnt-for-everyone",
+      "oatly-hand-drawn-copy",
+      "old-spice-the-man-your-man-could-smell-like",
+      "snickers-youre-not-you",
+      "arcteryx-playdate",
+      "coppertone-sucks-to-get-roasted",
+      "laffy-taffy-mouthful-of-fun",
+      "nike-acg-endless-attractions"
+     ]
+    },
+    {
+     "id": "clean-vs-chaotic",
+     "name": "Clean vs chaotic",
+     "detail": "",
+     "controls": "How ordered the work feels.",
+     "examples": [
+      "nike-rip-the-script",
+      "nike-football-federation-collabs",
+      "the-economist-red-posters"
+     ]
+    },
+    {
+     "id": "intimate-vs-epic",
+     "name": "Intimate vs epic",
+     "detail": "",
+     "controls": "Whether the work feels like one person's moment or a huge event.",
+     "examples": [
+      "dove-real-beauty-sketches",
+      "lurpak-cooking-landscapes",
+      "guinness-surfer",
+      "under-armour-rule-yourself-phelps"
+     ]
+    },
+    {
+     "id": "quiet-vs-loud",
+     "name": "Quiet vs loud",
+     "detail": "",
+     "controls": "How much the work shouts for attention.",
+     "examples": [
+      "apple-shot-on-iphone",
+      "oatly-hand-drawn-copy",
+      "qdoba-portion-pledge",
+      "under-armour-rule-yourself-phelps"
+     ]
+    },
+    {
+     "id": "aspirational-vs-relatable",
+     "name": "Aspirational vs relatable",
+     "detail": "",
+     "controls": "Whether the viewer is shown a life to want or a life they already have.",
+     "examples": [
+      "brooks-its-your-run",
+      "diesel-enjoy-before-returning",
+      "dove-campaign-for-real-beauty",
+      "skylrk-brand-imagery",
+      "levis-go-forth"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "constraints",
+   "category": "Constraints",
+   "lines": [
+    {
+     "id": "budget",
+     "name": "Budget",
+     "detail": "",
+     "controls": "How much money there is, treated as a choice that shapes the idea.",
+     "examples": [
+      "rudy-willingham-cutouts",
+      "britannia-ambient-ooh",
+      "spotify-fan-life",
+      "pentagram-performance-gov-midjourney",
+      "venmo-the-homeless"
+     ]
+    },
+    {
+     "id": "location",
+     "name": "Location",
+     "detail": "",
+     "controls": "Where the work can be made or placed.",
+     "examples": [
+      "britannia-ambient-ooh",
+      "sony-bravia-balls",
+      "venmo-the-homeless"
+     ]
+    },
+    {
+     "id": "format",
+     "name": "Format",
+     "detail": "",
+     "controls": "The physical or digital form the work has to take.",
+     "examples": [
+      "ef-tours-later-is-now",
+      "spec-duolingo-duo-wingwoman",
+      "bmw-joy-is-cutting-through-winter",
+      "kitkat-bench",
+      "milkbar-melbourne-tribune"
+     ]
+    },
+    {
+     "id": "timeline",
+     "name": "Timeline",
+     "detail": "",
+     "controls": "How long there is to make it.",
+     "examples": [
+      "ivory-homes-animated-short"
+     ]
+    },
+    {
+     "id": "platform-norms",
+     "name": "Platform norms",
+     "detail": "",
+     "controls": "What people expect to see on the channel, which the work can follow or break.",
+     "examples": [
+      "oatly-hand-drawn-copy",
+      "milkbar-melbourne-tribune"
+     ]
+    },
+    {
+     "id": "brand-rules-worth-breaking",
+     "name": "Brand rules worth breaking",
+     "detail": "",
+     "controls": "Which of the brand's own habits the work drops on purpose.",
+     "examples": [
+      "kfc-fck",
+      "omoda-7-uncommon",
+      "benetton-toscani-campaigns",
+      "british-airways-windows",
+      "burger-king-moldy-whopper"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "perspective-intent",
+   "category": "Perspective & Intent",
+   "lines": [
+    {
+     "id": "pov",
+     "name": "POV",
+     "detail": "first-person, observer, overhead",
+     "controls": "Whose eyes the viewer looks through.",
+     "examples": [
+      "nike-make-it-count"
+     ]
+    },
+    {
+     "id": "staged-vs-candid",
+     "name": "Staged vs candid",
+     "detail": "",
+     "controls": "Whether the scene looks set up or caught.",
+     "examples": [
+      "diesel-enjoy-before-returning",
+      "nike-make-it-count",
+      "polaroid-analog-life",
+      "omoda-7-uncommon"
+     ]
+    }
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "id": "scale-disparity",
+   "name": "Scale disparity",
+   "group": "Differentiate",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "utilizes the contrast of sizes in order to accentuate a message",
+   "definition_source": "newsletter/2026-09-28-the-art-direction-of-szilveszter-mako-mad-011.md",
+   "plain": "Put a very big thing next to a very small thing so the size gap makes the point.",
+   "variables": [],
+   "examples": [
+    "mako-editorial-portraits",
+    "volkswagen-think-small",
+    "sudafed-heavy-head-cold",
+    "loewe-pumpkin-ad",
+    "decathlon-macro-landscapes"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "saturation-blocking",
+   "name": "Saturation blocking",
+   "group": "Differentiate",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Fill large flat areas with strong colour so each area reads as one block.",
+   "variables": [],
+   "examples": [
+    "amazon-bil-kraft-funexpected",
+    "apple-ipod-silhouettes",
+    "wicked-pink-vs-green"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "simultaneous-contrast",
+   "name": "Simultaneous contrast",
+   "group": "Differentiate",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Two colours placed side by side change how each one looks, so each seems stronger.",
+   "variables": [],
+   "examples": [
+    "champion-energy-bbdo"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "warm-and-cool-split",
+   "name": "Warm and cool split",
+   "group": "Differentiate",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Divide the frame into a warm-coloured part and a cool-coloured part to separate two things.",
+   "variables": [],
+   "examples": [],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "semantic-juxtaposition",
+   "name": "Semantic juxtaposition",
+   "group": "Differentiate",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Place two things with different meanings side by side so the gap between them is the message.",
+   "variables": [],
+   "examples": [
+    "dove-real-beauty-sketches",
+    "twitter-hashtag-ooh",
+    "gwm-tank-500-warriors",
+    "rosalia-music-video",
+    "benetton-toscani-campaigns"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "symmetry",
+   "name": "Symmetry",
+   "group": "Group",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Mirror the two halves of the frame so the eye reads them as one calm whole.",
+   "variables": [],
+   "examples": [
+    "hm-come-together"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "face-schema",
+   "name": "Face schema",
+   "group": "Group",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Arrange a few marks like two eyes and a mouth and people see a face.",
+   "variables": [],
+   "examples": [
+    "vogue-eye-and-lips-cover"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "visual-rhyme",
+   "name": "Visual rhyme",
+   "group": "Group",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Two different things share an outline or a colour, so the eye links them.",
+   "variables": [],
+   "examples": [
+    "fried-chicken-rocket-plume"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "common-region",
+   "name": "Common region",
+   "group": "Group",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Things placed inside the same boundary are read as belonging together.",
+   "variables": [],
+   "examples": [
+    "ef-tours-later-is-now",
+    "nothing-light-up-what-matters",
+    "benetton-toscani-campaigns"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "good-continuation",
+   "name": "Good continuation",
+   "group": "Group",
+   "group_confidence": "inferred",
+   "name_confidence": "low",
+   "definition": "",
+   "definition_source": "",
+   "plain": "The eye follows a line or curve past a gap and treats the pieces as one path.",
+   "variables": [],
+   "examples": [
+    "mcdonalds-follow-the-arches"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "anthropomorphism",
+   "name": "Anthropomorphism",
+   "group": "Group",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Give an object a body, a face or behaviour so it reads as alive.",
+   "variables": [],
+   "examples": [
+    "apple-mac-mini-claymation",
+    "hard-rock-rock-in-headphones"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "semantic-compounding",
+   "name": "Semantic compounding",
+   "group": "Group",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Merge two things into a single form so their meanings add up.",
+   "variables": [],
+   "examples": [
+    "heinz-no-one-grows-ketchup",
+    "guinness-surfer"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "center-placement",
+   "name": "Center placement",
+   "group": "Sequence",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Put the subject dead centre so it is seen first.",
+   "variables": [],
+   "examples": [
+    "lego-build-the-future",
+    "jacquemus-yellow-circle-poster",
+    "hm-come-together"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "leading-lines",
+   "name": "Leading lines",
+   "group": "Sequence",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Lines in the picture point the eye toward the subject.",
+   "variables": [],
+   "examples": [
+    "mcdonalds-follow-the-arches"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "gaze-cue",
+   "name": "Gaze cue",
+   "group": "Sequence",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "The viewer looks where the person in the picture is looking.",
+   "variables": [],
+   "examples": [
+    "inside-the-blind-iris",
+    "under-armour-rule-yourself-phelps"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "size-hierarchy",
+   "name": "Size hierarchy",
+   "group": "Sequence",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "The biggest element is read first, the smallest last.",
+   "variables": [],
+   "examples": [
+    "diesel-enjoy-before-returning",
+    "nike-winning-isnt-for-everyone"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "frame-within-a-frame",
+   "name": "Frame within a frame",
+   "group": "Sequence",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "turns the portrait into a small stage. Scenes within scenes.",
+   "definition_source": "newsletter/2026-09-28-the-art-direction-of-szilveszter-mako-mad-011.md",
+   "plain": "Use a window, doorway or border inside the picture to hold the subject.",
+   "variables": [],
+   "examples": [
+    "mako-editorial-portraits",
+    "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+    "time-red-border",
+    "british-airways-windows"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "body-vector",
+   "name": "Body vector",
+   "group": "Sequence",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "The direction a body points or moves pulls the eye that way.",
+   "variables": [],
+   "examples": [
+    "apple-ipod-silhouettes",
+    "we-can-do-it-poster",
+    "levis-go-forth"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "reading-path",
+   "name": "Reading path",
+   "group": "Sequence",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Lay elements out so the eye passes through them in a set order.",
+   "variables": [],
+   "examples": [
+    "venmo-the-homeless"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "closure",
+   "name": "Closure",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Show part of an outline and the viewer's mind finishes the rest.",
+   "variables": [],
+   "examples": [
+    "lego-imagine-shadows",
+    "mcdonalds-follow-the-arches",
+    "the-lobster-posters",
+    "vogue-eye-and-lips-cover",
+    "british-airways-windows"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "forced-perspective",
+   "name": "Forced perspective",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Line up near and far objects so the camera reads them at a false size or distance.",
+   "variables": [],
+   "examples": [
+    "on-spike-jonze-zendaya",
+    "rudy-willingham-cutouts"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "caricatural-exaggeration",
+   "name": "Caricatural exaggeration",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Push one trait far past real so it is read at once.",
+   "variables": [],
+   "examples": [
+    "snickers-youre-not-you",
+    "wmf-sharper-than-you-think",
+    "sudafed-heavy-head-cold"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "form-substitution",
+   "name": "Form substitution",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "Use the shape of one thing to mean something else.",
+   "definition_source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "plain": "Swap an expected object for another object with the same outline.",
+   "variables": [],
+   "examples": [
+    "fried-chicken-rocket-plume",
+    "absolut-bottle-campaign",
+    "lego-imagine-shadows",
+    "heinz-no-one-grows-ketchup",
+    "kitkat-bench",
+    "decathlon-macro-landscapes"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "visual-quotation",
+   "name": "Visual quotation",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "references known genres, periods, or pieces of work. It allows the image to stand on the shoulders of its predecessors, as long as that reference is known (at least subconsciously) by the audience.",
+   "definition_source": "newsletter/2026-09-28-the-art-direction-of-szilveszter-mako-mad-011.md",
+   "plain": "Borrow the look of a known genre, period, format or single work so the viewer brings its meaning along.",
+   "variables": [
+    "genre code",
+    "period",
+    "format",
+    "work"
+   ],
+   "examples": [
+    "mako-editorial-portraits",
+    "mako-nosferatu-shadow",
+    "we-can-do-it-poster",
+    "bloomberg-businessweek-covers",
+    "esquire-covers",
+    "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+    "nike-rip-the-script",
+    "ef-tours-later-is-now",
+    "zillow-decrypting-realtor-code",
+    "nike-acg-endless-attractions",
+    "coinbase-your-way-out",
+    "the-ordinary-periodic-fable",
+    "adidas-greatest-football-story",
+    "milkbar-melbourne-tribune",
+    "gucci-and-beyond-fw17",
+    "vacation-sunscreen"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "pattern-break",
+   "name": "Pattern break",
+   "group": "Predict",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Set up a repeat, then change one item so that item stands out.",
+   "variables": [],
+   "examples": [
+    "nike-rip-the-script",
+    "stabilo-highlight-the-remarkable"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "occlusion",
+   "name": "Occlusion",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Let one thing cover part of another so the viewer fills in what is hidden.",
+   "variables": [],
+   "examples": [
+    "lego-build-the-future",
+    "twitter-hashtag-ooh"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "crop-at-the-edge",
+   "name": "Crop at the edge",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Cut the subject off at the frame so the viewer imagines the part outside it.",
+   "variables": [],
+   "examples": [
+    "mcdonalds-follow-the-arches",
+    "spec-dollar-shave-club-horror-posters",
+    "british-airways-windows"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "visible-facture",
+   "name": "Visible facture",
+   "group": "Predict",
+   "group_confidence": "read",
+   "name_confidence": "clear",
+   "definition": "when the process can be seen in the final work ie when the hand of the maker stays present through painted surfaces, grain, brushwork, and constructed scenery",
+   "definition_source": "newsletter/2026-09-28-the-art-direction-of-szilveszter-mako-mad-011.md",
+   "plain": "Leave the marks of how it was made in the finished piece: pen strokes, paint, cut paper, built sets.",
+   "variables": [],
+   "examples": [
+    "polaroid-analog-life",
+    "mako-editorial-portraits",
+    "oatly-hand-drawn-copy",
+    "pentagram-performance-gov-midjourney",
+    "spec-hydro-flask-bottle-scars",
+    "arcteryx-playdate",
+    "qdoba-portion-pledge",
+    "apple-mac-mini-claymation",
+    "levis-go-forth"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md"
+  },
+  {
+   "id": "figure-ground-reversal",
+   "name": "Figure-ground reversal",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "Turn the subtraction into the subject.",
+   "definition_source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "plain": "Make the empty area the thing the viewer reads, in place of the solid one.",
+   "variables": [],
+   "examples": [
+    "the-lobster-posters"
+   ],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md"
+  },
+  {
+   "id": "genre-quotation",
+   "name": "Genre quotation",
+   "group": "Predict",
+   "group_confidence": "inferred",
+   "name_confidence": "clear",
+   "definition": "If your visuals don't mean anything, try genre quotation. Reference something.",
+   "definition_source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "plain": "Visual quotation with one variable set: borrow the codes of a whole genre.",
+   "variables": [
+    "genre code"
+   ],
+   "examples": [
+    "genre-quotation-period-stills",
+    "nick-stokes-babe-town",
+    "spec-dollar-shave-club-horror-posters",
+    "qdoba-portion-pledge",
+    "gucci-and-beyond-fw17"
+   ],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md"
+  },
+  {
+   "id": "visual-literalism",
+   "name": "Visual literalism",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "Visual literalism is about rendering the message as literally as possible. Word for word, what does the phrase or key message itself look like when translated to images?",
+   "definition_source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "plain": "Draw the phrase exactly as worded, so a figure of speech becomes a real picture.",
+   "variables": [],
+   "examples": [
+    "mcdonalds-follow-the-arches",
+    "stabilo-highlight-the-remarkable",
+    "midori-frozen-margarita",
+    "bmw-joy-is-cutting-through-winter",
+    "sudafed-heavy-head-cold",
+    "mcdonalds-doordash-fast-stripes",
+    "road-safety-headless-driver",
+    "hard-rock-rock-in-headphones",
+    "kitkat-bench"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md"
+  },
+  {
+   "id": "personification",
+   "name": "Personification",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "personification is a different way of abstracting human qualities, literal human, than anthropomorphism",
+   "definition_source": "shorts/2026-08-31-apple-s-anthropomorphic-art-direction-k_fDRz5rKI4.md",
+   "plain": "Cast a real person to stand for a product, a feature or a problem.",
+   "variables": [],
+   "examples": [
+    "apple-im-a-mac"
+   ],
+   "source": "shorts/2026-08-31-apple-s-anthropomorphic-art-direction-k_fDRz5rKI4.md"
+  },
+  {
+   "id": "brand-mark-as-a-lens",
+   "name": "Brand mark as a lens",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "using a brand mark as a lens rather than a badge. By treating a brand asset as a framing device, you create a visual formula",
+   "definition_source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "plain": "Use the logo or another brand asset to frame a subject. His formula: brand mark + subject (+ optional copy).",
+   "variables": [
+    "brand mark",
+    "subject",
+    "optional copy"
+   ],
+   "examples": [
+    "twitter-hashtag-ooh",
+    "time-red-border",
+    "google-year-in-search"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md"
+  },
+  {
+   "id": "visual-device",
+   "name": "Visual device",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "That's a visual mechanism where you could swap in any brand or theme, and the executions are endless.",
+   "definition_source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md",
+   "plain": "A repeatable picture formula that takes any subject. It is his other name for a visual solution.",
+   "variables": [],
+   "examples": [
+    "lego-build-the-future",
+    "lego-imagine-shadows",
+    "twitter-hashtag-ooh",
+    "wmf-sharper-than-you-think",
+    "time-red-border",
+    "rudy-willingham-cutouts",
+    "wicked-pink-vs-green",
+    "absolut-bottle-campaign",
+    "nothing-light-up-what-matters"
+   ],
+   "source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md"
+  },
+  {
+   "id": "manipulate-the-medium",
+   "name": "Manipulate the medium",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "Think how could you manipulate the medium itself.",
+   "definition_source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md",
+   "plain": "Change the billboard, ticket or page itself so the format delivers the message.",
+   "variables": [],
+   "examples": [
+    "britannia-ambient-ooh",
+    "ef-tours-later-is-now",
+    "bmw-joy-is-cutting-through-winter",
+    "milkbar-melbourne-tribune"
+   ],
+   "source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md"
+  },
+  {
+   "id": "hockney-joiner",
+   "name": "Hockney joiner",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "a technique where you piece together a scene with separate photographs taken from different vantage points and moments in time. The very point of the technique is they aren't seamless.",
+   "definition_source": "linkedin/010-2026-08-11.md",
+   "plain": "Build one scene from many overlapping photos taken at different moments. Also called panography.",
+   "variables": [],
+   "examples": [
+    "converse-hockney-joiner"
+   ],
+   "source": "linkedin/010-2026-08-11.md"
+  },
+  {
+   "id": "design-through-metaphor",
+   "name": "Design through metaphor",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "A powerful concept often invokes a feeling rather than a literal image.",
+   "definition_source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "plain": "Suggest the idea with colour and pattern and leave the literal picture out.",
+   "variables": [],
+   "examples": [
+    "la28-superbloom"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md"
+  },
+  {
+   "id": "shipping-the-process",
+   "name": "Shipping the process",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "Instead of hiding the effort behind a 'making of' video, bring those glimpses of the practical setup into the final execution.",
+   "definition_source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "plain": "Leave the rigs, crew and mistakes in the final film so people believe it was done for real.",
+   "variables": [],
+   "examples": [
+    "omoda-7-uncommon"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md"
+  },
+  {
+   "id": "visual-lineage",
+   "name": "Visual lineage",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "Every visual idea carries baggage/associations, references, predecessors. And as art directors, we have a choice: we can utilize parts of that lineage intentionally, or we can accidentally plagiarize it.",
+   "definition_source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md",
+   "plain": "Trace a look back to who did it first, then borrow from further back than everyone else.",
+   "variables": [],
+   "examples": [
+    "decathlon-macro-landscapes",
+    "metro-colombia-macro-texture",
+    "roland-garros-2015",
+    "lurpak-cooking-landscapes"
+   ],
+   "source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md"
+  },
+  {
+   "id": "undercranking",
+   "name": "Undercranking",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Film at a low frame rate so the action plays back fast and jerky, like silent film.",
+   "variables": [],
+   "examples": [
+    "on-spike-jonze-zendaya"
+   ],
+   "source": "linkedin/041-2026-04-15.md"
+  },
+  {
+   "id": "hidden-jump-cut",
+   "name": "Hidden jump cut",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "",
+   "definition_source": "",
+   "plain": "Cut inside what looks like one shot so something changes without a visible edit.",
+   "variables": [],
+   "examples": [
+    "on-spike-jonze-zendaya"
+   ],
+   "source": "linkedin/041-2026-04-15.md"
+  },
+  {
+   "id": "practical-lighting",
+   "name": "Practical lighting",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "the lights existing inside the frame",
+   "definition_source": "shorts/2026-03-26-art-direct-your-home-like-a-movie-0DY00lpPaUQ.md",
+   "plain": "Light the scene with lamps the viewer can see in the shot, and treat those lamps as props.",
+   "variables": [],
+   "examples": [],
+   "source": "shorts/2026-03-26-art-direct-your-home-like-a-movie-0DY00lpPaUQ.md"
+  },
+  {
+   "id": "the-mismatch",
+   "name": "The Mismatch",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "you've got serene calm footage try pairing that with an aggressive track underneath when the music fights what you're seeing your brain goes 'wait what?'",
+   "definition_source": "video/the-lost-art-of-the-hook.md",
+   "plain": "Put music under the picture that fights its mood, so the viewer stops to work out why.",
+   "variables": [],
+   "examples": [],
+   "source": "video/the-lost-art-of-the-hook.md"
+  },
+  {
+   "id": "the-amplifier",
+   "name": "The Amplifier",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "taking whatever emotion is already on screen and turning up the volume on it",
+   "definition_source": "video/the-lost-art-of-the-hook.md",
+   "plain": "Pick music with the same mood as the picture so the feeling hits harder.",
+   "variables": [],
+   "examples": [],
+   "source": "video/the-lost-art-of-the-hook.md"
+  },
+  {
+   "id": "the-sonic-signature",
+   "name": "The Sonic Signature",
+   "group": "unknown",
+   "group_confidence": "unknown",
+   "name_confidence": "clear",
+   "definition": "repeat these musical motifs in more than just a single video… you're training them to associate a sound with the value you bring",
+   "definition_source": "video/the-lost-art-of-the-hook.md",
+   "plain": "Reuse the same sound or artist across pieces so people link it to you.",
+   "variables": [],
+   "examples": [
+    "makeup-and-vanity-set-score"
+   ],
+   "source": "video/the-lost-art-of-the-hook.md"
+  }
+ ],
+ "examples": [
+  {
+   "id": "absolut-bottle-campaign",
+   "brand": "Absolut Vodka",
+   "title": "Absolut Perfection (the bottle campaign)",
+   "year": "1980-2005",
+   "agency": "TBWA, New York",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "An \"ABSOLUT ATHENS\" poster is on screen 16 seconds into his form substitution Short, with no label and no comment.",
+   "record_note": "The campaign index marks it as not cited by him. Pass 1 found one poster on screen in Short pI8_WejU9sQ.",
+   "image": "absolut-bottle-campaign-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques That Draw You In (Short)",
+   "menu_lines": [
+    "repetition-or-pattern",
+    "iconography",
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "form-substitution",
+    "visual-device"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "amazon-bil-kelloggs-wind-down-club",
+   "brand": "Kellogg's Club Crisps",
+   "title": "The Wind Down Club",
+   "year": "not found",
+   "agency": "Amazon Ads Brand Innovation Lab",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His own Amazon work, shown on his site. He names no art direction point for it.",
+   "record_note": "The credit rests on his portfolio alone. No trade press or Amazon case study confirms his role.",
+   "image": "amazon-bil-kelloggs-wind-down-club-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "color-palette",
+    "lighting",
+    "props",
+    "set-and-location"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "site/work-the-wind-down-club.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "amazon-bil-kraft-funexpected",
+   "brand": "Kraft Heinz (Jell-O, Jet-Puffed, Cool Whip)",
+   "title": "Celebrate the Funexpected",
+   "year": "2023",
+   "agency": "Amazon Ads Brand Innovation Lab",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His own Amazon work. His site gives the insight: dessert shopping is never as fun as dessert eating.",
+   "record_note": "Teammate Rath Ros confirms the campaign and the Amazon team and does not name Jason.",
+   "image": "amazon-bil-kraft-funexpected-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "color-palette",
+    "scale",
+    "props",
+    "typeface",
+    "playful-vs-serious"
+   ],
+   "techniques": [
+    "saturation-blocking"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "site/work-kraft-funexpected.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "amazon-bil-kraft-heinz-grilling-hall-of-flavor",
+   "brand": "Kraft Heinz",
+   "title": "The Grilling Hall of Flavor",
+   "year": "2023",
+   "agency": "Amazon Ads Brand Innovation Lab",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His own Amazon work. The idea on his site: treat the grilling products like Hall of Famers.",
+   "record_note": "His page says the stores were in \"Chicago and California\" and calls the vehicle the \"Wienermobile\". Amazon names two Chicago suburbs and Huntington Beach, and says the vehicle had been renamed the Frankmobile.",
+   "image": "amazon-bil-kraft-heinz-grilling-hall-of-flavor-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "props",
+    "set-and-location",
+    "frames-borders-containers",
+    "cultural-references",
+    "color-palette"
+   ],
+   "techniques": [
+    "frame-within-a-frame",
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "site/work-kraft-heinz-grilling-hall-of-flavor.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "amazon-bil-vitaminwater-sonic-nourishment",
+   "brand": "vitaminwater (The Coca-Cola Company)",
+   "title": "Unlock Sonic Nourishment (vitaminwater x Amazon Music)",
+   "year": "not found",
+   "agency": "Amazon Ads Brand Innovation Lab",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His own Amazon work: \"This project was basically turning the whole Vitaminwater bottle into a surprise!\"",
+   "record_note": "His credit line lists Eddie Camacho as \"AD\" and gives Jason no title. His exact role is not stated.",
+   "image": "amazon-bil-vitaminwater-sonic-nourishment-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "color-palette",
+    "repetition-or-pattern",
+    "iconography",
+    "typeface"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "linkedin/139-2023-06-15.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "apple-ipod-silhouettes",
+   "brand": "Apple",
+   "title": "iPod Silhouettes",
+   "year": "2003-2008",
+   "agency": "TBWA\\Chiat\\Day",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The casting carried the message. \"a simple casting note and hindsight really emphasizes the message that the iPod is for everyone\"",
+   "record_note": "The campaign index marks it as not cited by him. Pass 1 found his Short of 2024-07-24 on it. He credits art director Susan Alinsangan.",
+   "image": "apple-ipod-silhouettes-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "The Secret Behind This Iconic Apple Ad (Short)",
+   "menu_lines": [
+    "whos-cast",
+    "movement-and-direction-of-talent",
+    "color-palette",
+    "contrast",
+    "gesture-and-body-language"
+   ],
+   "techniques": [
+    "saturation-blocking",
+    "body-vector"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "whos-cast",
+    "movement-and-direction-of-talent"
+   ],
+   "source": "shorts/2024-07-24-the-secret-behind-this-iconic-apple-ad-MXpHRihiWiA.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "apple-shot-on-iphone",
+   "brand": "Apple",
+   "title": "Shot on iPhone 6 (World Gallery)",
+   "year": "2015",
+   "agency": "TBWA\\Media Arts Lab",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His comparison for Polaroid: \"if they had typeset this, it would have felt very similar to Shot on iPhone\".",
+   "record_note": "The campaign index marks it as not cited by him. He names it once, in newsletter MAD 008, as a contrast to Polaroid.",
+   "image": "apple-shot-on-iphone-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "scale",
+    "stock-vs-shot",
+    "negative-space",
+    "quiet-vs-loud"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "newsletter/2026-07-06-polaroid-s-art-direction-of-humanity-mad-008.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "ben-parker-voltage",
+   "brand": "Voltage (personal project)",
+   "title": "Voltage blog and EV conversion directory",
+   "year": "2020-2023",
+   "agency": "in-house",
+   "kind": "guest-work",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A passion project in a reviewed portfolio: \"it was a Blog then I think he's now kind of changed it to be almost like a database library of EV conversion kits\"",
+   "record_note": "Ben Parker shut the Voltage site in June 2023 and renamed the blog Off Track Engineering. No image could be verified, so it carries no ingredient tags.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "benetton-toscani-campaigns",
+   "brand": "United Colors of Benetton",
+   "title": "The Oliviero Toscani campaigns",
+   "year": "1982-2000",
+   "agency": "not found",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show casting. He never cites it.",
+   "record_note": "",
+   "image": "benetton-toscani-campaigns-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "whos-cast",
+    "negative-space",
+    "brand-rules-worth-breaking"
+   ],
+   "techniques": [
+    "semantic-juxtaposition",
+    "common-region"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/benetton-toscani-campaigns.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "british-airways-windows",
+   "brand": "British Airways",
+   "title": "Windows",
+   "year": "2024",
+   "agency": "Uncommon Creative Studio",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show cropping. He never cites it.",
+   "record_note": "",
+   "image": "british-airways-windows-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "cropping",
+    "negative-space",
+    "expression-and-gaze",
+    "repetition-or-pattern",
+    "brand-rules-worth-breaking"
+   ],
+   "techniques": [
+    "crop-at-the-edge",
+    "closure",
+    "frame-within-a-frame"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/british-airways-windows.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "brooks-its-your-run",
+   "brand": "Brooks Running",
+   "title": "It's Your Run",
+   "year": "2022",
+   "agency": "Huge",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His own work at Huge: \"I'm not much of a runner... but that's kind of the whole point of the campaign.\"",
+   "record_note": "He says he spent \"the year in Atlanta\" on it and his site dates the job April to December 2021. The campaign launched in August 2022. No trade article names him.",
+   "image": "brooks-its-your-run-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "typeface",
+    "color-palette",
+    "playful-vs-serious",
+    "aspirational-vs-relatable"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "site/work-brooks-running-its-your-run.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "burger-king-moldy-whopper",
+   "brand": "Burger King",
+   "title": "The Moldy Whopper",
+   "year": "2020",
+   "agency": "INGO Stockholm, DAVID Miami, Publicis (Bucharest)",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show texture. He never cites it.",
+   "record_note": "",
+   "image": "burger-king-moldy-whopper-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "texture",
+    "lighting",
+    "negative-space",
+    "close-up-vs-wide",
+    "brand-rules-worth-breaking"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/burger-king-moldy-whopper.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "champion-energy-bbdo",
+   "brand": "Champion",
+   "title": "Be Your Own Champion (Energy BBDO's global work for Champion)",
+   "year": "2020-2021",
+   "agency": "Energy BBDO",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A client from his Energy BBDO years: \"I had worked on champion before but hadn't really produced anything just worked on the pitch\"",
+   "record_note": "Do not credit him with the finished work. No credit list names him, and none of the three saved images is confirmed as made before he left in March 2021.",
+   "image": "champion-energy-bbdo-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "whos-cast",
+    "color-palette",
+    "wardrobe",
+    "lighting",
+    "depth-of-field",
+    "camera-angle"
+   ],
+   "techniques": [
+    "simultaneous-contrast"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/champion-energy-bbdo.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "diesel-enjoy-before-returning",
+   "brand": "Diesel",
+   "title": "Enjoy Before Returning",
+   "year": "2019",
+   "agency": "Publicis Italy (Milan)",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "Left side of the line. Two ingredients: flash and casting. \"They're using this flash photography that almost makes me think of like the college parties\"",
+   "record_note": "He places the models in a \"normalish high school setting\". The key visuals show a city street at night, a taxi and a bar. He does not mention the swing tags, which carry the idea.",
+   "image": "diesel-enjoy-before-returning-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "lighting",
+    "whos-cast",
+    "set-and-location",
+    "wardrobe",
+    "polished-vs-raw",
+    "foreground-background",
+    "aspirational-vs-relatable",
+    "staged-vs-candid"
+   ],
+   "techniques": [
+    "size-hierarchy"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "lighting",
+    "whos-cast",
+    "set-and-location"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "dove-campaign-for-real-beauty",
+   "brand": "Dove",
+   "title": "Campaign for Real Beauty",
+   "year": "2004",
+   "agency": "Ogilvy & Mather",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A worked insight-to-idea example on his board. Insight as written there: \"Most women judge their appearance far more harshly than others do.\"",
+   "record_note": "He describes the 2004 platform with the 2013 film. Showing women how others see them belongs to Real Beauty Sketches. The 2004 launch asked the public to vote with tick boxes.",
+   "image": "dove-campaign-for-real-beauty-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Become an Art Director in 2026",
+   "menu_lines": [
+    "whos-cast",
+    "real-people-vs-models-vs-characters",
+    "negative-space",
+    "expression-and-gaze",
+    "aspirational-vs-relatable"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/how-to-become-an-art-director-in-2026.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "dove-real-beauty-sketches",
+   "brand": "Dove",
+   "title": "Real Beauty Sketches",
+   "year": "2013",
+   "agency": "Ogilvy Brasil, São Paulo",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "The execution he uses for Real Beauty: \"the illustrator drew a more beautiful version of them\"",
+   "record_note": "He files it under \"Real Beauty\" and never uses the title. Gil Zamora is a forensic sketch artist, though the Cannes credit does read \"Illustrator\".",
+   "image": "dove-real-beauty-sketches-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Become an Art Director in 2025",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "repetition-or-pattern",
+    "intimate-vs-epic"
+   ],
+   "techniques": [
+    "semantic-juxtaposition"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-become-an-art-director-in-2025.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "gucci-and-beyond-fw17",
+   "brand": "Gucci",
+   "title": "Gucci and Beyond (Fall/Winter 2017)",
+   "year": "2017",
+   "agency": "not found",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show era and time period. He never cites it.",
+   "record_note": "",
+   "image": "gucci-and-beyond-fw17-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "era-time-period",
+    "wardrobe",
+    "set-and-location",
+    "genre-or-world-youre-borrowing-from",
+    "cultural-references",
+    "color-palette"
+   ],
+   "techniques": [
+    "visual-quotation",
+    "genre-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/gucci-and-beyond-fw17.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "guinness-surfer",
+   "brand": "Guinness",
+   "title": "Surfer",
+   "year": "1999",
+   "agency": "Abbott Mead Vickers BBDO, London",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show pace and timing. He never cites it.",
+   "record_note": "",
+   "image": "guinness-surfer-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "pace-and-timing",
+    "hold-vs-movement",
+    "grade-or-finish",
+    "intimate-vs-epic"
+   ],
+   "techniques": [
+    "semantic-compounding"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/guinness-surfer.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "hm-come-together",
+   "brand": "H&M",
+   "title": "Come Together",
+   "year": "2016",
+   "agency": "adam&eveDDB, London",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show wardrobe, props and set. He never cites it.",
+   "record_note": "",
+   "image": "hm-come-together-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "wardrobe",
+    "props",
+    "set-and-location",
+    "color-palette",
+    "symmetry-vs-asymmetry",
+    "camera-movement",
+    "camera-angle"
+   ],
+   "techniques": [
+    "symmetry",
+    "center-placement"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/hm-come-together.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "jessica-sugarman-i-voted-tattoo",
+   "brand": "Gold Bond (Sanofi)",
+   "title": "Skin in the Game",
+   "year": "2020",
+   "agency": "Terri & Sandy",
+   "kind": "guest-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A self-started project in a portfolio he praises. He reads her page: \"the I voted sticker is a badge of honor but one you throw away\"",
+   "record_note": "He files it under passion projects. Her site presents it as paid client work for Gold Bond. Her name is spelled Jessica Sugerman on her own site.",
+   "image": "jessica-sugarman-i-voted-tattoo-4.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "iconography",
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "lego-build-the-future",
+   "brand": "LEGO",
+   "title": "Build the Future",
+   "year": "2017",
+   "agency": "Ogilvy & Mather Bangkok (Ogilvy Group Thailand)",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Right side of the line, shown as the shadow device evolved: \"using the product itself building the possibilities\"",
+   "record_note": "He says \"they've even evolved it\". The record shows no link: a different agency in a different country, about ten years after the shadow ads.",
+   "image": "lego-build-the-future-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "scale",
+    "photography-vs-illustration-vs-cg",
+    "real-people-vs-models-vs-characters"
+   ],
+   "techniques": [
+    "center-placement",
+    "occlusion",
+    "visual-device"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-device"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "lego-imagine-shadows",
+   "brand": "LEGO",
+   "title": "Imagine (Boat, Dinosaur, Plane, Tank)",
+   "year": "2006-2007",
+   "agency": "Blattner Brunner (Pittsburgh, USA)",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "His favourite visual device. \"you're pairing that with the shadow of that product and playing with how the shadows don't match\"",
+   "record_note": "He gives no title, agency or year. He treats these and Build the Future as one idea; they are two campaigns from two agencies.",
+   "image": "lego-imagine-shadows-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "copy-driven-vs-image-driven",
+    "negative-space",
+    "color-palette",
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "visual-device",
+    "form-substitution",
+    "closure"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "copy-driven-vs-image-driven",
+    "visual-device"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "levis-go-forth",
+   "brand": "Levi's",
+   "title": "Go Forth",
+   "year": "2009",
+   "agency": "Wieden+Kennedy Portland",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show texture and grain. He never cites it.",
+   "record_note": "",
+   "image": "levis-go-forth-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "texture",
+    "grade-or-finish",
+    "typeface",
+    "lighting",
+    "aspirational-vs-relatable"
+   ],
+   "techniques": [
+    "body-vector",
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/levis-go-forth.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "mcdonalds-follow-the-arches",
+   "brand": "McDonald's",
+   "title": "Follow the Arches",
+   "year": "2018",
+   "agency": "Cossette",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "On screen in his visual literalism Short as directional billboards built from pieces of the arches. He says nothing specific about it.",
+   "record_note": "The campaign index marks it as not cited by him. Pass 1 found it on screen in Short pj2Iy8RjPdc.",
+   "image": "mcdonalds-follow-the-arches-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "cropping",
+    "iconography",
+    "color-palette"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "crop-at-the-edge",
+    "closure",
+    "good-continuation",
+    "leading-lines"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "nick-stokes-babe-town",
+   "brand": "Babetown (self-initiated art show)",
+   "title": "Babetown: An Art Show",
+   "year": "2019",
+   "agency": "Colortime (Nick Stokes), shown at the Wieden+Kennedy Portland gallery",
+   "kind": "guest-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A passion project taken further. His guest Taylor Dahl: \"what if we made an event where it's a legit town\"",
+   "record_note": "The transcript treats it as a solo project. The site credits a writer and a producer as co-creators and 20 guest poster artists. Stokes had left W+K by the time of the video.",
+   "image": "nick-stokes-babe-town-4.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "color-palette",
+    "set-and-location",
+    "genre-or-world-youre-borrowing-from",
+    "playful-vs-serious"
+   ],
+   "techniques": [
+    "genre-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D:guest:Taylor Dahl]"
+  },
+  {
+   "id": "nike-just-do-it",
+   "brand": "Nike",
+   "title": "Just Do It",
+   "year": "1988",
+   "agency": "Wieden+Kennedy Portland",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A line that outgrew the platform row of his chart: \"it's larger than a platform\"",
+   "record_note": "He gives no date and no description of the visuals. The launch date comes from a weak source.",
+   "image": "nike-just-do-it-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Become an Art Director in 2025",
+   "menu_lines": [
+    "copy-driven-vs-image-driven",
+    "whos-cast"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-become-an-art-director-in-2025.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "nike-make-it-count",
+   "brand": "Nike",
+   "title": "Make It Count",
+   "year": "2012",
+   "agency": "not found",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Named in a podcast episode as the Casey Neistat film that made people pick up a camera. No art direction point is made.",
+   "record_note": "The transcript has no speaker labels, so the line may be guest Garrett King's.",
+   "image": "nike-make-it-count-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Building Creative Influence as a Photography Creator",
+   "menu_lines": [
+    "pov",
+    "pace-and-timing",
+    "staged-vs-candid",
+    "camera-movement"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/building-creative-influence-as-a-photography-creator.md",
+   "provenance": "[M]"
+  },
+  {
+   "id": "nike-rip-the-script",
+   "brand": "Nike",
+   "title": "Rip the Script",
+   "year": "2026",
+   "agency": "Wieden+Kennedy",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His model lockup: \"they've got the cracked screen the digital cracked screen down the middle where it's like breaking You're visually hinting at the entire idea\"",
+   "record_note": "He says the crack runs \"down the middle\"; it is diagonal. The crack is on the film title card; the grid poster has none. The insight he gives is his own guess at Nike's.",
+   "image": "nike-rip-the-script-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [
+    "set-and-location",
+    "texture",
+    "iconography",
+    "typeface",
+    "cultural-references",
+    "clean-vs-chaotic"
+   ],
+   "techniques": [
+    "pattern-break",
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "set-and-location",
+    "texture",
+    "iconography"
+   ],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "nike-winning-isnt-for-everyone",
+   "brand": "Nike",
+   "title": "Winning Isn't for Everyone",
+   "year": "2024",
+   "agency": "Wieden+Kennedy Portland",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "His platform test. Big idea on his board: \"Flip the traditional hero narrative and spotlight the darker, more uncomfortable reality of what it actually takes to win.\"",
+   "record_note": "\"from this last year\" is loose by the 2026 video; it launched in July 2024. He does not name the agency, the director or Willem Dafoe.",
+   "image": "nike-winning-isnt-for-everyone-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Become an Art Director in 2026",
+   "menu_lines": [
+    "typeface",
+    "type-hierarchy",
+    "contrast",
+    "expression-and-gaze",
+    "playful-vs-serious",
+    "copy-driven-vs-image-driven"
+   ],
+   "techniques": [
+    "size-hierarchy"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/how-to-become-an-art-director-in-2026.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "oatly-hand-drawn-copy",
+   "brand": "Oatly",
+   "title": "Hand-drawn copy ads (packaging, It's like milk but made for humans, Oatly in Paris)",
+   "year": "2014-2023",
+   "agency": "in-house (Oatly Department of Mind Control); 2014 packaging with Forsman & Bodenfors",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "Left side. One ingredient, the lettering: \"as we read this text with its big blocky font you almost associate it with Oatley and associate it with oat milk\"",
+   "record_note": "He names no campaign, year or maker. The hand-drawn look came from the 2014 packaging by Forsman & Bodenfors. Captions hear \"Oatley\".",
+   "image": "oatly-hand-drawn-copy-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "typeface",
+    "copy-driven-vs-image-driven",
+    "type-as-image-vs-type-as-support",
+    "contrast",
+    "playful-vs-serious",
+    "platform-norms",
+    "quiet-vs-loud"
+   ],
+   "techniques": [
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "typeface",
+    "copy-driven-vs-image-driven",
+    "type-as-image-vs-type-as-support"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "old-spice-the-man-your-man-could-smell-like",
+   "brand": "Old Spice",
+   "title": "The Man Your Man Could Smell Like",
+   "year": "2010",
+   "agency": "Wieden+Kennedy Portland",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A campaign whose insight makes it grab attention. With Nike: \"they're almost attentiongrabbing on their own\"",
+   "record_note": "He credits Jason Bagley with \"a lot of the Old Spice\" work. Bagley was a creative director on it; the first idea came from Craig Allen and Eric Kallman.",
+   "image": "old-spice-the-man-your-man-could-smell-like-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "whos-cast",
+    "expression-and-gaze",
+    "set-and-location",
+    "transitions-vs-hard-cuts",
+    "camera-movement",
+    "playful-vs-serious"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/the-lost-art-of-the-hook.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "pentagram-performance-gov-midjourney",
+   "brand": "Performance.gov (US Office of Management and Budget / General Services Administration)",
+   "title": "Performance.gov website and illustration system",
+   "year": "2024",
+   "agency": "Pentagram",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The badly received half of an AI contrast: \"pentagram releases a mid Journey driven Rebrand of like a US Government website or something and like pentagram gets completely flamed\"",
+   "record_note": "It was a website design with an illustration system, not a rebrand. The brush style came from real paintings by Bruno Bergallo that Midjourney extended. The speaker may be guest Edward Sun.",
+   "image": "pentagram-performance-gov-midjourney-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How Content Became This Designer's Escape Plan",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "iconography",
+    "color-palette",
+    "budget"
+   ],
+   "techniques": [
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-content-became-this-designer-s-escape-plan.md",
+   "provenance": "[D:guest:Edward Sun, speaker unlabelled]"
+  },
+  {
+   "id": "polaroid-analog-life",
+   "brand": "Polaroid",
+   "title": "The Camera for an Analog Life",
+   "year": "2025",
+   "agency": "in-house",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "Left side. \"there's one other really important ingredient here that's helping me feel this message and that's the handwritten ballpoint pen\"",
+   "record_note": "\"Ballpoint\" is his reading. The credit is handwriting by Thomas Lelu and no source names the pen; the strokes look thicker than ballpoint. Made by Polaroid's in-house studio.",
+   "image": "polaroid-analog-life-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "typeface",
+    "color-palette",
+    "copy-driven-vs-image-driven",
+    "grid-vs-anti-grid",
+    "polished-vs-raw",
+    "staged-vs-candid",
+    "frames-borders-containers"
+   ],
+   "techniques": [
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "typeface",
+    "color-palette",
+    "visible-facture"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "smith-diction-visual-electric",
+   "brand": "Alma",
+   "title": "Alma launch brand identity (AI collage system made with Visual Electric)",
+   "year": "2024",
+   "agency": "Smith & Diction",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The well received half of the AI contrast: \"Smith and diction made this all Rebrand that was like amazing using visual electric\"",
+   "record_note": "Alma was a new app, so this was a launch brand, not a rebrand. The claim that Visual Electric is trained on licensed data is not confirmed.",
+   "image": "smith-diction-visual-electric-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How Content Became This Designer's Escape Plan",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "texture",
+    "color-palette",
+    "stock-vs-shot"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-content-became-this-designer-s-escape-plan.md",
+   "provenance": "[D:guest:Edward Sun, speaker unlabelled]"
+  },
+  {
+   "id": "snickers-youre-not-you",
+   "brand": "Snickers",
+   "title": "You're Not You When You're Hungry",
+   "year": "2010-2018",
+   "agency": "BBDO New York",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "His standard platform. The casting is the push: \"they pushed it to the edge of Madness\"",
+   "record_note": "\"Edge of madness\" is Jason Bagley's phrase. \"A hunger fixing personality reset\" is Jason's own wording, not BBDO's. He never places it on the feeling to solution line.",
+   "image": "snickers-youre-not-you-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Become an Art Director in 2025",
+   "menu_lines": [
+    "whos-cast",
+    "playful-vs-serious",
+    "real-people-vs-models-vs-characters"
+   ],
+   "techniques": [
+    "caricatural-exaggeration"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-become-an-art-director-in-2025.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "sony-bravia-balls",
+   "brand": "Sony Bravia",
+   "title": "Balls",
+   "year": "2005",
+   "agency": "Fallon London",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His reference point for doing it for real: \"Feels like that famous Sony Bravia balls commercial. They did this for real.\"",
+   "record_note": "The campaign index marks it as not cited by him. Pass 1 found it named in Short Eq9iP3J33cI.",
+   "image": "sony-bravia-balls-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Directing the Mistakes (Short)",
+   "menu_lines": [
+    "color-palette",
+    "repetition-or-pattern",
+    "scale",
+    "location"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "shorts/2026-03-31-art-directing-the-mistakes-Eq9iP3J33cI.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "spec-dollar-shave-club-horror-posters",
+   "brand": "Dollar Shave Club",
+   "title": "Stop Fighting Your Face (student spec by Ian Hagen)",
+   "year": "not found",
+   "agency": "student work, University of Colorado Boulder",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A 360 spec campaign with a borrowed genre: \"he's treating his his uh his print ads as like horror film movie posters\"",
+   "record_note": "He quotes the idea as \"a seed of doubt that grows with every shave\"; that phrase is not on the page as fetched. The surname Hagen comes from the URL.",
+   "image": "spec-dollar-shave-club-horror-posters-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [
+    "genre-or-world-youre-borrowing-from",
+    "color-palette",
+    "cropping",
+    "texture",
+    "typeface",
+    "era-of-visual-style"
+   ],
+   "techniques": [
+    "genre-quotation",
+    "crop-at-the-edge"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "spec-duolingo-duo-wingwoman",
+   "brand": "Duolingo",
+   "title": "Duo Wingwoman (student spec)",
+   "year": "2024",
+   "agency": "student work, Brigham Young University / Provo",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Spec work built on an insight: \"it's got this great insight that women when they travel often feel unsafe because there's a language barrier\"",
+   "record_note": "He says he found it in \"the one show archive\"; it is in the Young Ones student archive. He does not name the students.",
+   "image": "spec-duolingo-duo-wingwoman-2.jpg",
+   "image_dir": "campaigns",
+   "source_video": "How to Pivot to Art Direction with No Experience",
+   "menu_lines": [
+    "iconography",
+    "color-palette",
+    "format"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-pivot-to-art-direction-with-no-experience.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "spec-hydro-flask-bottle-scars",
+   "brand": "Hydro Flask",
+   "title": "Embrace Your Bottle Scars (student spec by Abe Tullis)",
+   "year": "2025",
+   "agency": "student work, BYU AdLab (Brigham Young University)",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A 360 spec campaign: \"embracing the rugged nature of Hydro Flask bottles and how we bang them up scratch them up\"",
+   "record_note": "He speaks of one male student. The work was made by a team and entered as a social media campaign. No image could be fetched; tags come from the frame notes.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How to Craft an Art Director Portfolio",
+   "menu_lines": [
+    "texture",
+    "polished-vs-raw",
+    "typeface",
+    "foreground-background"
+   ],
+   "techniques": [
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-craft-an-art-director-portfolio.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "the-economist-red-posters",
+   "brand": "The Economist",
+   "title": "White out of red posters",
+   "year": "1988-2003",
+   "agency": "Abbott Mead Vickers (now AMV BBDO)",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show type as image. He never cites it.",
+   "record_note": "",
+   "image": "the-economist-red-posters-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "typeface",
+    "type-as-image-vs-type-as-support",
+    "color-palette",
+    "negative-space",
+    "copy-driven-vs-image-driven",
+    "alignment",
+    "density-vs-minimalism",
+    "clean-vs-chaotic"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/the-economist-red-posters.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "twitter-hashtag-ooh",
+   "brand": "Twitter",
+   "title": "It's What's Happening (hashtag out-of-home)",
+   "year": "2016",
+   "agency": "in-house",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Right side. Symbol plus image, no words: \"the standout ingredients are the image and the symbol\"",
+   "record_note": "He lists two ingredients. Each ad has a third fixed element, the bird logo. In March 2026 he ranks it below the Time work.",
+   "image": "twitter-hashtag-ooh-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "iconography",
+    "copy-driven-vs-image-driven",
+    "cropping",
+    "scale",
+    "cultural-references"
+   ],
+   "techniques": [
+    "brand-mark-as-a-lens",
+    "visual-device",
+    "semantic-juxtaposition",
+    "occlusion"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "iconography",
+    "copy-driven-vs-image-driven",
+    "brand-mark-as-a-lens",
+    "visual-device"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "under-armour-rule-yourself-phelps",
+   "brand": "Under Armour",
+   "title": "Rule Yourself (Michael Phelps)",
+   "year": "2016",
+   "agency": "Droga5 New York",
+   "kind": "added",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Added by the corpus builder to show lighting. He never cites it.",
+   "record_note": "",
+   "image": "under-armour-rule-yourself-phelps-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "",
+   "menu_lines": [
+    "lighting",
+    "contrast",
+    "grade-or-finish",
+    "intimate-vs-epic",
+    "quiet-vs-loud"
+   ],
+   "techniques": [
+    "gaze-cue"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "mentioned/campaigns/under-armour-rule-yourself-phelps.md",
+   "provenance": "[G]"
+  },
+  {
+   "id": "volkswagen-think-small",
+   "brand": "Volkswagen",
+   "title": "Think Small",
+   "year": "1959",
+   "agency": "Doyle Dane Bernbach",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His example of a counterintuitive insight: \"the ad think small that sounds wrong but when you dive deeper there's truth behind it\"",
+   "record_note": "The campaign index marks it as not cited by him. He names the headline once and the ad is on screen in the hook video. He makes no art direction point about it.",
+   "image": "volkswagen-think-small-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "negative-space",
+    "scale",
+    "grid-vs-anti-grid",
+    "type-hierarchy",
+    "density-vs-minimalism"
+   ],
+   "techniques": [
+    "scale-disparity"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/the-lost-art-of-the-hook.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "wmf-sharper-than-you-think",
+   "brand": "WMF",
+   "title": "Sharper than you think (Schärfer, als man denkt)",
+   "year": "2004-2005",
+   "agency": "KNSK, Hamburg",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Right side, and a small idea. \"all they wanted to get across was that this knife is sharper than you think\"",
+   "record_note": "He never says WMF; the frame does. Only one vegetable execution, the carrot, could be verified. The second verified execution is a sharpening steel.",
+   "image": "wmf-sharper-than-you-think-1.jpg",
+   "image_dir": "campaigns",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "props",
+    "copy-driven-vs-image-driven",
+    "camera-angle",
+    "negative-space"
+   ],
+   "techniques": [
+    "visual-device",
+    "caricatural-exaggeration"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "props",
+    "copy-driven-vs-image-driven",
+    "visual-device"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "arcteryx-playdate",
+   "brand": "Arc'teryx",
+   "title": "Playdate (student spec by Connor McLoughlin)",
+   "year": "",
+   "agency": "bootcamp spec, NEXT Art Director",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "Left side. One standout ingredient, the cut-out letters: \"we really feel it because of the choice of lettering\"",
+   "record_note": "Captions hear \"Arcterics\". \"Playdate with Rain\" is one ad's line, not the title.",
+   "image": "art-direction-techniques-O_B_Ei5o1k4-1016s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "typeface",
+    "close-up-vs-wide",
+    "depth-of-field",
+    "grid-vs-anti-grid",
+    "expression-and-gaze",
+    "playful-vs-serious"
+   ],
+   "techniques": [
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "typeface",
+    "close-up-vs-wide",
+    "depth-of-field"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "ef-tours-later-is-now",
+   "brand": "EF Tours",
+   "title": "Later Is Now (student spec by Jaya Schreihart)",
+   "year": "",
+   "agency": "bootcamp spec, NEXT Art Director",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "middle",
+   "spectrum_basis": "his",
+   "his_point": "The one example he puts in the middle. \"there's really just one clear ingredient here\": the boarding pass as the medium.",
+   "record_note": "Captions call her \"Ja\". NotebookLM titled it \"The Hidden Cost of Waiting\"; the slide says LATER IS NOW.",
+   "image": "art-direction-techniques-O_B_Ei5o1k4-1216s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [
+    "format",
+    "frames-borders-containers",
+    "typeface"
+   ],
+   "techniques": [
+    "manipulate-the-medium",
+    "visual-quotation",
+    "common-region"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "format"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "qdoba-portion-pledge",
+   "brand": "Qdoba",
+   "title": "The Portion Pledge (portfolio of Jairo Obando)",
+   "year": "2024",
+   "agency": "Denver Ad School portfolio piece; copywriter Anthony Martinez",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Praise for propaganda as art direction, and one fix: \"you need some sort of key visual to communicate what the entire campaign is about\"",
+   "record_note": "Jason says \"assuming it's a spec campaign\"; that is not confirmed. He later credits the propaganda style to Michael Orfanos by mistake.",
+   "image": "art-director-reacts-to-portfolios-live-XE17bcDT2zY-1550s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Director Reacts to Portfolios (live)",
+   "menu_lines": [
+    "genre-or-world-youre-borrowing-from",
+    "typeface",
+    "color-palette",
+    "era-of-visual-style",
+    "copy-driven-vs-image-driven",
+    "quiet-vs-loud"
+   ],
+   "techniques": [
+    "genre-quotation",
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "source": "video/art-director-reacts-to-portfolios-live.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "zillow-decrypting-realtor-code",
+   "brand": "Zillow",
+   "title": "Decrypting Realtor Code (portfolio of Jairo Obando)",
+   "year": "",
+   "agency": "Denver Ad School portfolio piece",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A key visual that works: it \"does feel more like a key visual that explains the idea across the rest of your campaign\"",
+   "record_note": "NotebookLM treated \"Realtor Code\" as the brand. The brand is Zillow.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Art Director Reacts to Portfolios (live)",
+   "menu_lines": [
+    "genre-or-world-youre-borrowing-from",
+    "typeface",
+    "cultural-references",
+    "copy-driven-vs-image-driven"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/art-director-reacts-to-portfolios-live.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "gwm-tank-500-warriors",
+   "brand": "GWM Tank 500",
+   "title": "New Zealand Warriors sponsorship billboards (portfolio of Michael Orfanos)",
+   "year": "",
+   "agency": "real client work, agency not stated",
+   "kind": "guest-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The thumbnail hid the idea. He restates it: \"these cars are built like tanks but so are the New Zealand Warriors let's pair the car with the positions on the field\"",
+   "record_note": "Jason reads it aloud as \"tank 300\"; the page says TANK 500. NotebookLM wrote \"Michael Orano\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Art Director Reacts to Portfolios (live)",
+   "menu_lines": [
+    "repetition-or-pattern",
+    "copy-driven-vs-image-driven",
+    "alignment",
+    "density-vs-minimalism"
+   ],
+   "techniques": [
+    "semantic-juxtaposition"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/art-director-reacts-to-portfolios-live.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "coppertone-sucks-to-get-roasted",
+   "brand": "Coppertone",
+   "title": "It sucks to get roasted (spec by Rachel Holmes)",
+   "year": "",
+   "agency": "portfolio spec",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "Line praised, craft missing: \"I think that's a really clever idea line\". He calls it \"a very copy driven campaign\" and asks for a visual style.",
+   "record_note": "",
+   "image": "art-director-reacts-to-portfolios-live-XE17bcDT2zY-2450s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Director Reacts to Portfolios (live)",
+   "menu_lines": [
+    "copy-driven-vs-image-driven",
+    "color-palette",
+    "playful-vs-serious"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "copy-driven-vs-image-driven"
+   ],
+   "source": "video/art-director-reacts-to-portfolios-live.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "spotify-wrapped",
+   "brand": "Spotify",
+   "title": "Wrapped",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A worked insight on his board: \"People use music taste as a way to define themselves and signal who they are.\"",
+   "record_note": "Text only on the board; no ad image is shown. The 2025 board called it \"Your Year in Music\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How to Become an Art Director in 2026",
+   "menu_lines": [],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [],
+   "source": "frames/how-to-become-an-art-director-in-2026.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "venmo-the-homeless",
+   "brand": "Utah Food and Care Coalition",
+   "title": "Venmo the Homeless",
+   "year": "",
+   "agency": "his student work, BYU",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A stunt done for real: \"we raised $6,000 for that homeless shelter the Food and Care Coalition\"",
+   "record_note": "The numbers change by telling: \"$5,000 $6,000\" and \"close to 30 50 people\" in the portfolio stream.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How to Pivot to Art Direction with No Experience",
+   "menu_lines": [
+    "props",
+    "location",
+    "budget"
+   ],
+   "techniques": [
+    "reading-path"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/how-to-pivot-to-art-direction-with-no-experience.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "lazy-series-reel-cover",
+   "brand": "Jason Murray",
+   "title": "Tools for LAZY Creatives (his own reel series)",
+   "year": "",
+   "agency": "his own content",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "He annotates his own reel cover for the tools of a hook: title text, setting and props. \"I treat my own creative direction the same way I'd treat a global brand campaign\"",
+   "record_note": "",
+   "image": "the-lost-art-of-the-hook-in6uIQOfZWU-448s.jpg",
+   "image_dir": "frames",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "props",
+    "set-and-location",
+    "typeface"
+   ],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [
+    "props",
+    "set-and-location",
+    "typeface"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "laffy-taffy-mouthful-of-fun",
+   "brand": "Laffy Taffy",
+   "title": "A Mouthful of Fun poster series (by Braden Clark)",
+   "year": "",
+   "agency": "portfolio piece, heybraden.com",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His linked example for the craft or design-focused project: go all in on one craft, here illustration and lettering.",
+   "record_note": "The brand is missing from every NotebookLM answer.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How to Pivot to Art Direction with No Experience",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "typeface",
+    "color-palette",
+    "density-vs-minimalism",
+    "playful-vs-serious"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/how-to-pivot-to-art-direction-with-no-experience.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "swet-athletic-mood-board",
+   "brand": "SWET ATHLETIC (his mood board)",
+   "title": "Mood board with one recoloured jacket",
+   "year": "",
+   "agency": "his own content",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A mood board holds one palette. He recolours a neon yellow jacket to sage green and adds grain so the image fits.",
+   "record_note": "SWET ATHLETIC is a heading on his board, not a confirmed real brand.",
+   "image": "how-to-art-direct-your-mood-board-in-photoshop-uOvNil7caN4-348s.jpg",
+   "image_dir": "frames",
+   "source_video": "How to Art Direct Your Mood Board in Photoshop",
+   "menu_lines": [
+    "color-palette",
+    "grade-or-finish",
+    "stock-vs-shot"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "color-palette",
+    "grade-or-finish"
+   ],
+   "source": "frames/how-to-art-direct-your-mood-board-in-photoshop.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "ivory-homes-animated-short",
+   "brand": "Ivory Homes",
+   "title": "Animated short film (illustrator and director Colin Hesterly)",
+   "year": "",
+   "agency": "Colin Hesterly; Jason animated and edited",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "His own animation job, with the deadline stated: he \"was given just 4 days to animate and edit the entire film\".",
+   "record_note": "NotebookLM credits Jason as creator. His site credits Colin Hesterly as illustrator and director.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "",
+   "menu_lines": [
+    "timeline",
+    "photography-vs-illustration-vs-cg"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "timeline"
+   ],
+   "source": "site/work-ivory-home-animated-short-film.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "makeup-and-vanity-set-score",
+   "brand": "Makeup and Vanity Set (via Musicbed)",
+   "title": "One artist scoring his videos: Solaris, Plot, dogs",
+   "year": "",
+   "agency": "his own content, sponsored by Musicbed",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Music as an ingredient: \"Now music is one of the most important creative ingredients And it's not even visual\". He keeps to one artist.",
+   "record_note": "Said inside a Musicbed sponsor read. Music is not on the menu slide.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Art Direction Techniques You Can Use",
+   "menu_lines": [],
+   "techniques": [
+    "the-sonic-signature"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "the-sonic-signature"
+   ],
+   "source": "video/art-direction-techniques-you-can-use.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "time-red-border",
+   "brand": "Time magazine",
+   "title": "Red border campaign",
+   "year": "",
+   "agency": "copywriter Dean Buckhorn, art director Bob Barrie",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "The red border frames a small piece of a historic image: \"a masterclass in using a brand mark as a lens rather than a badge\"",
+   "record_note": "Captions hear \"Bob Berry\". He says the two makers \"likely weren't the pioneers of this visual device\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Learn This Powerful Art Direction Technique (Short)",
+   "menu_lines": [
+    "frames-borders-containers",
+    "iconography",
+    "cropping"
+   ],
+   "techniques": [
+    "brand-mark-as-a-lens",
+    "visual-device",
+    "frame-within-a-frame"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "frames-borders-containers",
+    "iconography",
+    "cropping",
+    "brand-mark-as-a-lens",
+    "visual-device"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "google-year-in-search",
+   "brand": "Google",
+   "title": "Year in Search (framing ads)",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "The same framing formula with copy as the punchline: \"the ad doesn't have to be see-say in order to be clear\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Learn This Powerful Art Direction Technique (Short)",
+   "menu_lines": [
+    "frames-borders-containers",
+    "copy-driven-vs-image-driven"
+   ],
+   "techniques": [
+    "brand-mark-as-a-lens"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "brand-mark-as-a-lens"
+   ],
+   "source": "shorts/2026-03-25-learn-this-powerful-art-direction-technique-M3VYHBR4dJo.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "rudy-willingham-cutouts",
+   "brand": "Rudy Willingham (artist)",
+   "title": "Paper cut-outs held against real scenes",
+   "year": "",
+   "agency": "Rudy Willingham",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "His $1 tier. A visual device made with almost nothing: \"All you need is paper and a clever concept.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "$1 vs $1M Art Direction Techniques (Short)",
+   "menu_lines": [
+    "budget"
+   ],
+   "techniques": [
+    "visual-device",
+    "forced-perspective"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "budget",
+    "visual-device"
+   ],
+   "source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "britannia-ambient-ooh",
+   "brand": "Britannia",
+   "title": "Ambient out-of-home shaped by nature",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His $100,000 tier, the environment as part of the ad: \"Nature literally shaping Britannia on the nose but unforgettable\"",
+   "record_note": "He gives no campaign title and no frame note covers this Short. Captions hear \"at home\" for \"out of home\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "$1 vs $1M Art Direction Techniques (Short)",
+   "menu_lines": [
+    "budget",
+    "location"
+   ],
+   "techniques": [
+    "manipulate-the-medium"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "budget",
+    "location",
+    "manipulate-the-medium"
+   ],
+   "source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "spotify-fan-life",
+   "brand": "Spotify",
+   "title": "Fan life campaign",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His $1 million tier. \"Each spot has a single visual motif shot on film. Unpolished textures and grit that makes it feel real.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "$1 vs $1M Art Direction Techniques (Short)",
+   "menu_lines": [
+    "grade-or-finish",
+    "texture",
+    "polished-vs-raw",
+    "budget"
+   ],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [
+    "grade-or-finish",
+    "texture",
+    "polished-vs-raw",
+    "budget"
+   ],
+   "source": "shorts/2025-10-03-1-vs-1m-art-direction-techniques-tvEpH1OscGw.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "stabilo-highlight-the-remarkable",
+   "brand": "Stabilo Boss",
+   "title": "Highlight the Remarkable",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "A visual literalism example: \"Highlight the remarkable, the essential women behind these historical moments.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "focal-point",
+    "hierarchy-of-attention",
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "pattern-break"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "kfc-fck",
+   "brand": "KFC",
+   "title": "FCK / We're sorry",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "On screen without comment in his run of advertising hooks: an empty bucket on red with the logo letters rearranged.",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "iconography",
+    "color-palette",
+    "brand-rules-worth-breaking"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/the-lost-art-of-the-hook.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "okcupid-dtf",
+   "brand": "OkCupid",
+   "title": "DTF / Dating Deserves Better",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "On screen without comment in the same run. The frame note says it reframes a familiar acronym.",
+   "record_note": "",
+   "image": "the-lost-art-of-the-hook-in6uIQOfZWU-430s.jpg",
+   "image_dir": "frames",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "type-as-image-vs-type-as-support",
+    "copy-driven-vs-image-driven",
+    "color-palette"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/the-lost-art-of-the-hook.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "heinz-no-one-grows-ketchup",
+   "brand": "Heinz",
+   "title": "No one grows Ketchup like Heinz",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "On screen while he describes the solution end of the line: a ketchup bottle made of tomato slices. He does not name it.",
+   "record_note": "Placement is by what is on screen as he speaks.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Spectrum of Art Direction Solutions (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "form-substitution",
+    "semantic-compounding"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "shorts/2026-10-01-the-spectrum-of-art-direction-solutions-nYl9UnPoPv4.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "tinder-it-starts-with-a-swipe",
+   "brand": "Tinder",
+   "title": "It Starts with a Swipe",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "his",
+   "his_point": "On screen while he describes the feeling end of the line: \"Someone to save the planet with\". He does not name it.",
+   "record_note": "Placement is by what is on screen as he speaks.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Spectrum of Art Direction Solutions (Short)",
+   "menu_lines": [
+    "copy-driven-vs-image-driven"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "shorts/2026-10-01-the-spectrum-of-art-direction-solutions-nYl9UnPoPv4.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "midori-frozen-margarita",
+   "brand": "Midori",
+   "title": "Frozen Margarita",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. A fridge with flowers frozen inside. He says \"a fridge full of daisies\".",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "props"
+   ],
+   "techniques": [
+    "visual-literalism"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "bmw-joy-is-cutting-through-winter",
+   "brand": "BMW",
+   "title": "Joy is cutting through winter (mailer)",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. A mailer where tearing a paper strip cuts a road through snow.",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "format"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "manipulate-the-medium"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "sudafed-heavy-head-cold",
+   "brand": "Sudafed",
+   "title": "Help clear your heavy head cold",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. A man holding his own huge head.",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "scale"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "scale-disparity",
+    "caricatural-exaggeration"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "mcdonalds-doordash-fast-stripes",
+   "brand": "DoorDash and McDonald's",
+   "title": "Billboards of horizontal colour stripes",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. The food drawn as speed stripes: \"show the food literally fast\".",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "color-palette"
+   ],
+   "techniques": [
+    "visual-literalism"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "road-safety-headless-driver",
+   "brand": "Road safety ad (brand not read)",
+   "title": "A driver with no head",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. The line made literal: \"your head is somewhere else\".",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "cropping"
+   ],
+   "techniques": [
+    "visual-literalism"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "hard-rock-rock-in-headphones",
+   "brand": "Hard Rock",
+   "title": "ROCK beside HARD ROCK",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. A rock wearing headphones.",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "props"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "anthropomorphism"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "kitkat-bench",
+   "brand": "KitKat",
+   "title": "KitKat bench",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "Visual literalism example. A bench built as the chocolate bar: \"Give me a literal break\".",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Visual Literalism: Art Direction Techniques 001 (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical",
+    "format"
+   ],
+   "techniques": [
+    "visual-literalism",
+    "form-substitution"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-literalism"
+   ],
+   "source": "shorts/2026-03-06-visual-literalism-art-direction-techniques-001-pj2Iy8RjPdc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "the-lobster-posters",
+   "brand": "The Lobster (film posters)",
+   "title": "A figure embracing an empty cut-out",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His example of figure-ground reversal: \"Turn the subtraction into the subject.\"",
+   "record_note": "He does not name the film in speech; the frame note reads the posters.",
+   "image": "short-pI8_WejU9sQ-3s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Direction Techniques That Draw You In (Short)",
+   "menu_lines": [
+    "negative-space"
+   ],
+   "techniques": [
+    "figure-ground-reversal",
+    "closure"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "figure-ground-reversal"
+   ],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "fried-chicken-rocket-plume",
+   "brand": "Fried chicken ad (brand not read)",
+   "title": "Fried chicken laid out as a rocket's exhaust plume",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His example of form substitution: \"Use the shape of one thing to mean something else.\"",
+   "record_note": "The brand could not be read in the frame.",
+   "image": "short-pI8_WejU9sQ-13s.jpg",
+   "image_dir": "frames",
+   "source_video": "Art Direction Techniques That Draw You In (Short)",
+   "menu_lines": [
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "form-substitution",
+    "visual-rhyme"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "form-substitution"
+   ],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "genre-quotation-period-stills",
+   "brand": "Unidentified ads",
+   "title": "A period-drama street and a pirate-ship scene with small ad copy",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His example of genre quotation: \"If your visuals don't mean anything, try genre quotation. Reference something.\"",
+   "record_note": "The brand of the two stills could not be read.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Art Direction Techniques That Draw You In (Short)",
+   "menu_lines": [
+    "genre-or-world-youre-borrowing-from",
+    "era-time-period"
+   ],
+   "techniques": [
+    "genre-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "genre-or-world-youre-borrowing-from",
+    "genre-quotation"
+   ],
+   "source": "shorts/2026-09-30-art-direction-techniques-that-draw-you-in-pI8_WejU9sQ.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "mako-editorial-portraits",
+   "brand": "Szilveszter Makó (photographer)",
+   "title": "Editorial portraits: Olivia Rodrigo for Vogue Philippines, Sandra Bullock for Interview",
+   "year": "",
+   "agency": "Szilveszter Makó",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The case his technique map is built on: \"that painterly, surreal feeling is almost entirely constructed in camera\"",
+   "record_note": "Captions hear \"Sylvester Mako\".",
+   "image": "newsletter-mad-011-iris-technique-map.jpg",
+   "image_dir": "frames",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "props",
+    "set-and-location",
+    "gesture-and-body-language",
+    "expression-and-gaze",
+    "homage-vs-originality",
+    "era-of-visual-style",
+    "texture"
+   ],
+   "techniques": [
+    "visible-facture",
+    "visual-quotation",
+    "frame-within-a-frame",
+    "scale-disparity"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "props",
+    "set-and-location",
+    "gesture-and-body-language",
+    "expression-and-gaze",
+    "visible-facture",
+    "visual-quotation",
+    "frame-within-a-frame",
+    "scale-disparity"
+   ],
+   "source": "newsletter/2026-09-28-the-art-direction-of-szilveszter-mako-mad-011.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "mako-nosferatu-shadow",
+   "brand": "Szilveszter Makó (photographer)",
+   "title": "The shadow of Nosferatu, in an embroidered dress",
+   "year": "",
+   "agency": "Szilveszter Makó",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A direct quotation of one work. He lists \"even more direct references like Nosferatu\". Iris shows it with 3 techniques.",
+   "record_note": "Which three techniques the tool links to it could not be read. The image file is the frame of his tool with this example selected.",
+   "image": "short-2BYgOxYTE-0-72s.jpg",
+   "image_dir": "frames",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "cultural-references"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-quotation"
+   ],
+   "source": "shorts/2026-09-24-these-photos-look-like-paintings-2BYgOxYTE-0.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "we-can-do-it-poster",
+   "brand": "\"We Can Do It!\" poster",
+   "title": "We Can Do It!",
+   "year": "",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Pass 1 lists it among the 15 visual quotation examples in the tool. He does not speak about it.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "gesture-and-body-language",
+    "cultural-references"
+   ],
+   "techniques": [
+    "visual-quotation",
+    "body-vector"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "visual-quotation"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "bloomberg-businessweek-covers",
+   "brand": "Bloomberg Businessweek",
+   "title": "Magazine covers, one with Barack Obama and the word \"Crashed\"",
+   "year": "",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Pass 1 lists the covers among the 15 visual quotation examples in the tool.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "visual-quotation"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "esquire-covers",
+   "brand": "Esquire",
+   "title": "Two magazine covers",
+   "year": "",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Pass 1 lists the covers among the 15 visual quotation examples in the tool.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "visual-quotation"
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "loewe-pumpkin-ad",
+   "brand": "LOEWE",
+   "title": "Ad with a figure seated on a giant pumpkin",
+   "year": "",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Seen on the map only. The lines from this image to its techniques could not be read, so the technique tag is the corpus builder's.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "scale",
+    "props"
+   ],
+   "techniques": [
+    "scale-disparity"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "jacquemus-yellow-circle-poster",
+   "brand": "Jacquemus",
+   "title": "Poster with a large yellow circle",
+   "year": "",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Seen on the map only. The technique tag is the corpus builder's.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "color-palette",
+    "negative-space"
+   ],
+   "techniques": [
+    "center-placement"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "vogue-eye-and-lips-cover",
+   "brand": "Vogue",
+   "title": "Cover with one eye and red lips on white",
+   "year": "1950",
+   "agency": "",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "An example image on his Iris map. \"None of these pieces of work are a single technique\".",
+   "record_note": "Seen on the map only. The year is printed on the cover. The technique tags are the corpus builder's.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "These photos look like paintings! (Short)",
+   "menu_lines": [
+    "cropping",
+    "negative-space",
+    "real-people-vs-models-vs-characters"
+   ],
+   "techniques": [
+    "closure",
+    "face-schema"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "provenance": "[D:vis]"
+  },
+  {
+   "id": "apple-mac-mini-claymation",
+   "brand": "Apple",
+   "title": "Mac mini claymation ad",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Anthropomorphism fixing a hardware perception problem: \"The Mac mini is so small, we might assume it's weak\"",
+   "record_note": "He doubts Apple is this deliberate: \"I doubt they're even getting that specifically strategic\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Apple's Anthropomorphic Art Direction (Short)",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg"
+   ],
+   "techniques": [
+    "anthropomorphism",
+    "visible-facture"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "anthropomorphism"
+   ],
+   "source": "shorts/2026-08-31-apple-s-anthropomorphic-art-direction-k_fDRz5rKI4.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "apple-im-a-mac",
+   "brand": "Apple",
+   "title": "I'm a Mac (Get a Mac)",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "His best-known case of personification: \"I'm a Mac almost gives a social identity to the product.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Apple's Anthropomorphic Art Direction (Short)",
+   "menu_lines": [
+    "whos-cast"
+   ],
+   "techniques": [
+    "personification"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "personification"
+   ],
+   "source": "shorts/2026-08-31-apple-s-anthropomorphic-art-direction-k_fDRz5rKI4.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "apple-welcome-home-homepod",
+   "brand": "Apple",
+   "title": "Welcome Home (HomePod), directed by Spike Jonze",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A set built to stretch for real: \"there is no trick. What you see is exactly what the camera saw.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Beautifully Illogical Ads: The Set Could Break (Short)",
+   "menu_lines": [
+    "set-and-location",
+    "movement-and-direction-of-talent"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "set-and-location"
+   ],
+   "source": "shorts/2026-04-08-beautifully-illogical-ads-the-set-could-break-Sr4nZRHus8I.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "on-spike-jonze-zendaya",
+   "brand": "On",
+   "title": "Spike Jonze film with Zendaya",
+   "year": "2026",
+   "agency": "MJZ; The Perlin; TRAFIK",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Practical technique as the idea: \"'Undercranking' the frame rate. Forced perspective illusions. 'hidden' jump cut magic.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Art Direction of Zendaya x Spike Jonze",
+   "menu_lines": [
+    "expression-and-gaze",
+    "pace-and-timing",
+    "transitions-vs-hard-cuts"
+   ],
+   "techniques": [
+    "forced-perspective",
+    "undercranking",
+    "hidden-jump-cut"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "expression-and-gaze",
+    "forced-perspective",
+    "undercranking",
+    "hidden-jump-cut"
+   ],
+   "source": "linkedin/041-2026-04-15.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "omoda-7-uncommon",
+   "brand": "OMODA",
+   "title": "OMODA 7 car ads that show the rig",
+   "year": "",
+   "agency": "Uncommon Creative Studio",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Process left in the hero spot: \"They're doing this on purpose because we won't believe it if they don't.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Art Directing the Mistakes (Short)",
+   "menu_lines": [
+    "staged-vs-candid",
+    "brand-rules-worth-breaking"
+   ],
+   "techniques": [
+    "shipping-the-process"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "shipping-the-process"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "la28-superbloom",
+   "brand": "LA28 Olympics",
+   "title": "Superbloom look of the games",
+   "year": "",
+   "agency": "LA28 in-house",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Metaphor without the literal picture: \"it uses color and patterns to suggest energy and growth\"",
+   "record_note": "He does not use the spectrum words in this issue; the placement is the corpus builder's.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Behind the Olympics Superbloom Design Concept (Short)",
+   "menu_lines": [
+    "color-palette",
+    "repetition-or-pattern",
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [
+    "design-through-metaphor"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "color-palette",
+    "repetition-or-pattern",
+    "literal-vs-metaphorical",
+    "design-through-metaphor"
+   ],
+   "source": "newsletter/2026-04-08-steal-these-art-direction-techniques-mad-005.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "decathlon-macro-landscapes",
+   "brand": "Decathlon",
+   "title": "Print ads: athletic gear as macro landscapes",
+   "year": "2025",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The start of his lineage tree: \"A close-up of fabric intuitively reads as terrain. A zipper becomes a road.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How Art Directors Weaponize Visual Lineage (Short)",
+   "menu_lines": [
+    "texture",
+    "close-up-vs-wide",
+    "scale"
+   ],
+   "techniques": [
+    "visual-lineage",
+    "form-substitution",
+    "scale-disparity"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "texture",
+    "close-up-vs-wide",
+    "visual-lineage"
+   ],
+   "source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "metro-colombia-macro-texture",
+   "brand": "Metro (Colombian grocery)",
+   "title": "Macro food texture ads",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The too-close twin of Decathlon: \"Yikes. Who copied who? or were they inspired by the same thing?\"",
+   "record_note": "The brand name Metro appears once in the newsletter.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How Art Directors Weaponize Visual Lineage (Short)",
+   "menu_lines": [
+    "texture",
+    "homage-vs-originality"
+   ],
+   "techniques": [
+    "visual-lineage"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "texture",
+    "homage-vs-originality",
+    "visual-lineage"
+   ],
+   "source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "roland-garros-2015",
+   "brand": "Roland-Garros",
+   "title": "2015 tennis ad: clay as landscape",
+   "year": "2015",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The earlier relative in the tree: \"Possibly this 2015 tennis ad from the Rolland Garros tournament?\"",
+   "record_note": "His newsletter spells it \"Rolland Garros\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How Art Directors Weaponize Visual Lineage (Short)",
+   "menu_lines": [
+    "texture"
+   ],
+   "techniques": [
+    "visual-lineage"
+   ],
+   "tag_basis": "his",
+   "his_tags": [
+    "texture",
+    "visual-lineage"
+   ],
+   "source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "lurpak-cooking-landscapes",
+   "brand": "Lurpak",
+   "title": "Cooking close-ups as other worlds",
+   "year": "",
+   "agency": "Wieden+Kennedy",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "The same shorthand used another way: \"Extreme close-ups of cabbage, broccoli, and flour become other-worldly landscapes.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "How Art Directors Weaponize Visual Lineage (Short)",
+   "menu_lines": [
+    "close-up-vs-wide",
+    "texture",
+    "intimate-vs-epic"
+   ],
+   "techniques": [
+    "visual-lineage"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "close-up-vs-wide",
+    "texture",
+    "visual-lineage"
+   ],
+   "source": "newsletter/2026-02-17-how-art-directors-should-understand-visual-lineage.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "converse-hockney-joiner",
+   "brand": "Converse and others",
+   "title": "Ads built as Hockney joiners",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "When to reach for a joiner: \"if I have a brand where I need to collapse time into a single frame\". Converse swaps wardrobe between images.",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "What's a Hockney Joiner? (Short)",
+   "menu_lines": [
+    "wardrobe",
+    "grid-vs-anti-grid"
+   ],
+   "techniques": [
+    "hockney-joiner"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "wardrobe",
+    "hockney-joiner"
+   ],
+   "source": "shorts/2026-04-11-what-s-a-hockney-joiner-add-this-to-your-visual-toolbox-Z2Xeb2zhWAU.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "wicked-pink-vs-green",
+   "brand": "Wicked (film marketing)",
+   "title": "Pink versus green",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "his",
+   "his_point": "One colour per side, across production design and marketing: \"it's a scalable visual device that bridges languages globally\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Art Direction of Good vs Wicked (Short)",
+   "menu_lines": [
+    "color-palette",
+    "contrast"
+   ],
+   "techniques": [
+    "visual-device",
+    "saturation-blocking"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "color-palette",
+    "visual-device"
+   ],
+   "source": "linkedin/077-2025-12-03.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "pantone-bon-iver-fable-salmon",
+   "brand": "Pantone x Bon Iver",
+   "title": "SABLE, fABLE \"Fable Salmon\"",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "A colour made for one album, set against the Color of the Year: \"the most interesting choice is never the trend\"",
+   "record_note": "Captions hear \"Bon V's Sable Fable\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Pantone's Worst Color of the Year (Short)",
+   "menu_lines": [
+    "color-palette"
+   ],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [
+    "color-palette"
+   ],
+   "source": "shorts/2025-12-04-pantone-s-worst-color-of-the-year-zTgeDLmDUIg.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "rosalia-music-video",
+   "brand": "Rosalía",
+   "title": "Music video (late October 2025)",
+   "year": "2025",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "He calls it a masterclass on contrast: \"Not just contrasting color or size. But contrasting subjects.\"",
+   "record_note": "He says he is out of his depth on it.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "",
+   "menu_lines": [
+    "contrast"
+   ],
+   "techniques": [
+    "semantic-juxtaposition"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "contrast"
+   ],
+   "source": "linkedin/082-2025-11-04.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "squarespace-emma-stone",
+   "brand": "Squarespace",
+   "title": "Super Bowl 2026 film with Emma Stone, directed by Yorgos Lanthimos",
+   "year": "2026",
+   "agency": "in-house; production designer James Price",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "His best art direction of that Super Bowl, black and white on rare film stock with built sets. \"You'll notice a lot of verbs. That's what a concept is.\"",
+   "record_note": "Captions spell the director \"Yorgos Lanos\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Art Direction Behind This Super Bowl Ad (Short)",
+   "menu_lines": [
+    "grade-or-finish",
+    "set-and-location",
+    "contrast"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "grade-or-finish",
+    "set-and-location"
+   ],
+   "source": "shorts/2026-02-10-the-art-direction-behind-this-super-bowl-ad-w-emma-stone-t_DilxpOrZg.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "nike-acg-endless-attractions",
+   "brand": "Nike ACG",
+   "title": "A World of Endless Attractions",
+   "year": "",
+   "agency": "Wieden+Kennedy; R/GA web experience",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A look pulled from the brand's own 90s archive, on an insight: \"The natural world is actually wild, feral, and a little absurd.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Nike's Absurd ACG Art Direction (Short)",
+   "menu_lines": [
+    "era-of-visual-style",
+    "genre-or-world-youre-borrowing-from",
+    "typeface",
+    "homage-vs-originality",
+    "playful-vs-serious"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "era-of-visual-style",
+    "genre-or-world-youre-borrowing-from",
+    "typeface",
+    "homage-vs-originality"
+   ],
+   "source": "shorts/2026-02-26-nike-s-absurd-acg-art-direction-tv6RwbPinkE.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "gap-young-miko",
+   "brand": "Gap",
+   "title": "Gap x Young Miko music video",
+   "year": "",
+   "agency": "director Bethany Vargas",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Simple sets, one palette, 26 dancers: \"No voiceover, no product specs, just movement as the product demo.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Art Direction of Gap x Young Miko (Short)",
+   "menu_lines": [
+    "movement-and-direction-of-talent",
+    "color-palette",
+    "set-and-location",
+    "wardrobe",
+    "camera-movement"
+   ],
+   "techniques": [],
+   "tag_basis": "his",
+   "his_tags": [
+    "movement-and-direction-of-talent",
+    "color-palette",
+    "set-and-location",
+    "wardrobe",
+    "camera-movement"
+   ],
+   "source": "newsletter/2026-03-12-noticing-nostalgia-mad-004.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "coinbase-your-way-out",
+   "brand": "Coinbase",
+   "title": "Your Way Out of Their System (Oscars spot)",
+   "year": "",
+   "agency": "Isle of Any; director Oscar Hudson",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "All live action, pixel sets and printed suits, to answer one problem: \"Crypto's image problem is that it feels inhuman.\"",
+   "record_note": "Captions spell the agency \"Isle of Maney\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Art Direction of Humanness (Short)",
+   "menu_lines": [
+    "wardrobe",
+    "set-and-location",
+    "movement-and-direction-of-talent",
+    "photography-vs-illustration-vs-cg",
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "wardrobe",
+    "set-and-location",
+    "movement-and-direction-of-talent",
+    "photography-vs-illustration-vs-cg"
+   ],
+   "source": "shorts/2026-03-17-the-art-direction-of-humanness-coinbase-oscars-commercial-wOOdAvWyXpc.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "the-ordinary-periodic-fable",
+   "brand": "The Ordinary",
+   "title": "Periodic Fable",
+   "year": "",
+   "agency": "Uncommon Creative Studio; director Olivia de Camps",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A dystopian classroom world. His line on it: \"showing the eerie truth of modern beauty CULTure\"",
+   "record_note": "Most of the detail in his Short is the Uncommon creative team speaking, not Jason.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Behind This Dystopian Beauty Commercial (Short)",
+   "menu_lines": [
+    "set-and-location",
+    "genre-or-world-youre-borrowing-from",
+    "cultural-references"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "linkedin/085-2025-10-24.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "airbnb-buck-mini-worlds",
+   "brand": "Airbnb",
+   "title": "Animated mini-worlds",
+   "year": "",
+   "agency": "Buck",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Miniature worlds built from real listings. He reads the line: \"don't stay on the touristy side of Paris stay on the parisy side of Paris\"",
+   "record_note": "He doubts animation is enough against what he calls Airbnb fatigue.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Have You Seen These Incredible Airbnb Animations? (Short)",
+   "menu_lines": [
+    "photography-vs-illustration-vs-cg",
+    "texture",
+    "scale"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "photography-vs-illustration-vs-cg",
+    "texture"
+   ],
+   "source": "shorts/2024-07-06-have-you-seen-these-incredible-airbnb-animations-Vo3A8lzmDx4.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "nike-football-federation-collabs",
+   "brand": "Nike Football",
+   "title": "Seven federation collabs for World Cup 2026",
+   "year": "2026",
+   "agency": "NOCTA, Palace, Jacquemus, Patta and others",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "He scores the shoots on world building. On Nike x Patta: \"Clean studio cycs mixed with maximalist sets.\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Rating Nike Football Art Direction (Short)",
+   "menu_lines": [
+    "set-and-location",
+    "color-palette",
+    "cultural-references",
+    "density-vs-minimalism",
+    "clean-vs-chaotic"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "set-and-location",
+    "color-palette",
+    "cultural-references",
+    "density-vs-minimalism"
+   ],
+   "source": "newsletter/2026-06-23-the-most-feral-art-direction-in-sports-right-now-mad-007.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "adidas-greatest-football-story",
+   "brand": "Adidas",
+   "title": "The Greatest Football Story Ever Told",
+   "year": "2026",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "It beats Nike for him because \"that one film is a storytelling moment of its own\". He names an \"uncut gems style feel\".",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Nike vs Adidas: Who Did It Better? (Short)",
+   "menu_lines": [
+    "genre-or-world-youre-borrowing-from",
+    "whos-cast"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "source": "shorts/2026-06-04-nike-vs-adidas-who-did-it-better-m_GzG04i-8M.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "oakley-delusion-is-vision",
+   "brand": "Oakley",
+   "title": "Delusion is Vision (his own spec, shot with friends)",
+   "year": "",
+   "agency": "his own spec; photographer Garrett King",
+   "kind": "his-own-work",
+   "cited_by_jason": true,
+   "spectrum": "middle",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "In-camera lens distortion stands for the idea: \"we often see ambitious people as delusional when in reality, they're the ones that see their potential most clearly\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Don't Wait to Creative Direct Brands (Short)",
+   "menu_lines": [
+    "gesture-and-body-language",
+    "color-palette",
+    "literal-vs-metaphorical"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "gesture-and-body-language",
+    "color-palette"
+   ],
+   "source": "shorts/2026-06-08-don-t-wait-to-creative-direct-brands-fill-your-portfolio-wit-GPK3d7-GQgA.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "nothing-light-up-what-matters",
+   "brand": "Nothing",
+   "title": "Light Up What Matters, Phone (4a) (bootcamp spec by Kristin Massa)",
+   "year": "",
+   "agency": "bootcamp spec, NEXT Art Director",
+   "kind": "student-spec",
+   "cited_by_jason": true,
+   "spectrum": "solution",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A visual device taken from the product: \"a really cool way of expressing the sort of grid design element from the product\"",
+   "record_note": "The Short's caption names her \"Christian\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Learn Art Direction in 30 Days (Short)",
+   "menu_lines": [
+    "grid-vs-anti-grid",
+    "frames-borders-containers"
+   ],
+   "techniques": [
+    "visual-device",
+    "common-region"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "grid-vs-anti-grid"
+   ],
+   "source": "shorts/2026-07-01-learn-art-direction-in-30-days-Q8eQfoQlc78.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "skylrk-brand-imagery",
+   "brand": "SKYLRK (Justin Bieber)",
+   "title": "Brand imagery",
+   "year": "",
+   "agency": "not stated by him",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A look adopted from an artist who already owned it: \"The image of a brand doesn't need to be built from scratch.\"",
+   "record_note": "Captions hear \"Skylark\".",
+   "image": "",
+   "image_dir": "",
+   "source_video": "Who Is Behind SKYLRK? (Short)",
+   "menu_lines": [
+    "grade-or-finish",
+    "aspirational-vs-relatable"
+   ],
+   "techniques": [],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "shorts/2026-07-27-who-is-behind-skylrk-zPmie-EPhEg.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "vacation-sunscreen",
+   "brand": "Vacation (sunscreen)",
+   "title": "1980s nostalgia brand world",
+   "year": "2021",
+   "agency": "not stated",
+   "kind": "real",
+   "cited_by_jason": false,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "Guest writer Stefan Szary, in Jason's newsletter: \"it lets the brand be racy without being creepy\". Hand-scribbled logo, serifs, VHS-style kerning.",
+   "record_note": "Szary's words, published by Jason. Jason does not cite the brand himself.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "",
+   "menu_lines": [
+    "typeface",
+    "era-time-period",
+    "era-of-visual-style"
+   ],
+   "techniques": [
+    "visual-quotation"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "newsletter/2026-03-12-noticing-nostalgia-mad-004.md",
+   "provenance": "[D:guest:Stefan Szary]"
+  },
+  {
+   "id": "milkbar-melbourne-tribune",
+   "brand": "Milkbar (Melbourne clothing)",
+   "title": "The Melbourne Tribune, a fake 1950s newspaper",
+   "year": "",
+   "agency": "in-house; founder Simon Agosta",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": "feeling",
+   "spectrum_basis": "corpus-builder",
+   "his_point": "A launch taken off the algorithm. Jason's summary: \"their whole brand is built around romanticizing a version of the past that never really existed\"",
+   "record_note": "The newsletter piece is by contributor Henry Duffield. The quote is Jason's LinkedIn summary of it.",
+   "image": "",
+   "image_dir": "",
+   "source_video": "",
+   "menu_lines": [
+    "era-time-period",
+    "format",
+    "platform-norms",
+    "genre-or-world-youre-borrowing-from"
+   ],
+   "techniques": [
+    "visual-quotation",
+    "manipulate-the-medium"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [
+    "era-time-period"
+   ],
+   "source": "linkedin/028-2026-05-26.md",
+   "provenance": "[D]"
+  },
+  {
+   "id": "inside-the-blind-iris",
+   "brand": "Inside the Blind Iris (short film)",
+   "title": "Wallpaper of painted eyes",
+   "year": "",
+   "agency": "director Douglas Bernardt",
+   "kind": "real",
+   "cited_by_jason": true,
+   "spectrum": null,
+   "spectrum_basis": "",
+   "his_point": "The cold open of his hook video: \"one of my favorite visuals that always hooks me in\"",
+   "record_note": "",
+   "image": "",
+   "image_dir": "",
+   "source_video": "The Lost Art of the Hook",
+   "menu_lines": [
+    "repetition-or-pattern"
+   ],
+   "techniques": [
+    "gaze-cue"
+   ],
+   "tag_basis": "corpus-builder",
+   "his_tags": [],
+   "source": "video/the-lost-art-of-the-hook.md",
+   "provenance": "[D]"
+  }
+ ],
+ "frameworks": [
+  {
+   "id": "big-idea-pyramid",
+   "name": "The Big Idea Pyramid",
+   "kind": "pyramid",
+   "parts": [
+    {
+     "name": "Insight",
+     "text": "The point at the top, the smallest part. One focused human truth. \"People think X, but the reality is Y.\""
+    },
+    {
+     "name": "Idea",
+     "text": "The middle band. What you do with that truth, written as a verb. He calls it the creative formula."
+    },
+    {
+     "name": "Execution",
+     "text": "The wide base, \"the largest part of the triangle cuz it has the most detail\". The art direction ingredients live here."
+    }
+   ],
+   "source": "frames/art-direction-techniques-you-can-use.md",
+   "note": "He also calls it \"my big idea triangle\". Look and feel \"can sort of fit between idea and execution\" (Short MhMhug5xo9E). NotebookLM drew it upside down; his slide and Short put Insight at the point."
+  },
+  {
+   "id": "idea-sizing-chart",
+   "name": "Idea Sizing Chart",
+   "kind": "ladder",
+   "parts": [
+    {
+     "name": "Business Strategy & Positioning",
+     "text": "Row 1, the biggest."
+    },
+    {
+     "name": "Branding",
+     "text": "Row 2. \"Just Do It\" grew into this row: \"it's larger than a platform\"."
+    },
+    {
+     "name": "Platform",
+     "text": "Row 3. The group label \"Big Ideas\" sits beside this row. Snickers \"You're Not You When You're Hungry\" is his standard platform."
+    },
+    {
+     "name": "Campaign",
+     "text": "Row 4. Nike \"Rip the Script\" is a campaign and a big idea in his telling."
+    },
+    {
+     "name": "Execution",
+     "text": "Row 5. \"what if we just put a sneaker in Time Square well that's not really a big idea that's just coming up with an execution\"."
+    },
+    {
+     "name": "One-off",
+     "text": "Row 6. The group label \"Small Ideas\" sits beside this row."
+    },
+    {
+     "name": "Tactics",
+     "text": "Row 7."
+    },
+    {
+     "name": "Crap",
+     "text": "Row 8. Group label \"No ideas\"."
+    }
+   ],
+   "source": "frames/how-to-become-an-art-director-in-2026.md",
+   "note": "Eight rows read off the 2026 FigJam board. The three group labels sit in a merged left column, so which rows each label spans is not certain. The 2025 board read Execution twice and had no Tactics row."
+  },
+  {
+   "id": "feeling-solution-line",
+   "name": "Visual Feeling ↔ Visual Solution",
+   "kind": "line",
+   "parts": [
+    {
+     "name": "Visual Feeling",
+     "text": "Left end. Copy, dialogue or voice-over tells the message and the visual choices support it. He also says \"look and feel\". Polaroid, Oatly, Diesel, Arc'teryx Playdate."
+    },
+    {
+     "name": "Middle",
+     "text": "EF Tours \"Later Is Now\": \"somewhere in between creating the feeling but also the medium itself\"."
+    },
+    {
+     "name": "Visual Solution",
+     "text": "Right end. The pairing of images or symbols is the message and copy shrinks to a button. He also says \"visual device\". LEGO, WMF, Twitter."
+    }
+   ],
+   "source": "frames/art-direction-techniques-you-can-use.md",
+   "note": "One line with five ticks. Nothing is drawn on it; he places each ad in speech. \"There is no right or wrong\"."
+  },
+  {
+   "id": "three-levels-of-expressing-taste",
+   "name": "The three levels of expressing taste",
+   "kind": "levels",
+   "parts": [
+    {
+     "name": "Level 1: like or dislike",
+     "text": "Know what you like and what you reject, on purpose."
+    },
+    {
+     "name": "Level 2: how it feels",
+     "text": "Say the feeling with a simile, metaphor or reference: \"this maybe feels like a Michel Gondry film\"."
+    },
+    {
+     "name": "Level 3: the ingredients",
+     "text": "Name what made it feel that way: \"the actual ingredients the techniques elements or mediums\". \"You're filling a pantry.\""
+    }
+   ],
+   "source": "video/the-theory-of-taste.md",
+   "note": "His iPad drawing stacks INPUTS, LIKE?, FEELINGS, INGREDIENTS, widest at the bottom."
+  },
+  {
+   "id": "three-taste-milestones",
+   "name": "The three milestones to unlock taste",
+   "kind": "list",
+   "parts": [
+    {
+     "name": "1. Broaden your inputs",
+     "text": "Raise the volume and the variety of what you look at, and capture it. \"nobody trusts the taste of someone who only eats fast food\"."
+    },
+    {
+     "name": "2. Express your taste",
+     "text": "Move from liking to feeling to ingredients (the three levels)."
+    },
+    {
+     "name": "3. Become visually literate through immersion",
+     "text": "Go to the source: photographer portfolios, their reps, agency sites. \"the best chefs don't just like sushi they move to japan\"."
+    }
+   ],
+   "source": "video/the-theory-of-taste.md",
+   "note": "He says \"milestones or techniques\" at the start and \"three tools\" in the recap."
+  },
+  {
+   "id": "five-taste-types",
+   "name": "The five taste types",
+   "kind": "list",
+   "parts": [
+    {
+     "name": "Mainstream taste",
+     "text": "\"Casts the widest net. It's a safe taste.\" Its use is scale."
+    },
+    {
+     "name": "Cultural taste",
+     "text": "\"Gatekept by lived experience.\" \"you can't claim it if you didn't live it\"."
+    },
+    {
+     "name": "Counter taste",
+     "text": "\"developed through conviction, the willingness to reject what everyone else wants\"."
+    },
+    {
+     "name": "Elite taste",
+     "text": "Judgments where \"the criteria is gatekept by pure access or privilege\"."
+    },
+    {
+     "name": "Commercial taste",
+     "text": "\"a little flavor of aspiration mixed with something familiar and inviting\", used to fit a business objective."
+    }
+   ],
+   "source": "shorts/2026-05-01-you-re-thinking-about-taste-wrong-bKjx0_m3zLM.md",
+   "note": "He calls the set \"a nuanced matrix of flavor profiles\". No chart is drawn on screen."
+  },
+  {
+   "id": "portfolio-project-types",
+   "name": "Portfolio project types",
+   "kind": "list",
+   "parts": [
+    {
+     "name": "360 Campaign",
+     "text": "1-2. Spec, branded. \"Show that your idea 'has legs'. Try for 4-10 different touch-points\"."
+    },
+    {
+     "name": "Passion Project",
+     "text": "1-2. Preferably not branded. \"Show who YOU are outside of advertising.\""
+    },
+    {
+     "name": "Craft or Design-focused Project",
+     "text": "1. \"this is your opportunity to get obsessive\"."
+    },
+    {
+     "name": "Experimental / Non-traditional",
+     "text": "1, optional. \"Formats, mediums, or tech used in surprising ways.\""
+    },
+    {
+     "name": "Social / Content",
+     "text": "1, optional. \"Show that you are a master of the hook.\""
+    },
+    {
+     "name": "Stunt / Cultural Response",
+     "text": "1, optional. \"Ideally do something for real that garners attention.\""
+    }
+   ],
+   "source": "frames/how-to-craft-an-art-director-portfolio.md",
+   "note": "Four to six projects in total. His checklist says 4-6+ touchpoints where this table says 4-10."
+  },
+  {
+   "id": "iris-four-groups",
+   "name": "Iris: the four groups",
+   "kind": "list",
+   "parts": [
+    {
+     "name": "Differentiate",
+     "text": "Red. Tell things apart. Scale disparity sits here."
+    },
+    {
+     "name": "Group",
+     "text": "Blue. Tie things together. Symmetry, Face schema, Visual rhyme."
+    },
+    {
+     "name": "Sequence",
+     "text": "Yellow. Order the reading. Center placement, Leading lines, Gaze cue."
+    },
+    {
+     "name": "Predict",
+     "text": "Purple. Set up an expectation. Closure, Form substitution, Visual quotation, Visible facture."
+    }
+   ],
+   "source": "frames/iris-taxonomy-of-visuals.md",
+   "note": "The four names are on the filter row of his tool. What each group does is inferred from its name and its techniques; he has published no legend. 39 techniques exist, 28 are read, 11 are unread."
+  }
+ ]
+}

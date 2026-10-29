@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="job" content="show">
+<title>Clip review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<aside>
+  <input id="me" class="me" placeholder="Your name" maxlength="40">
+  <label class="filter"><input type="checkbox" id="untagged"> Untagged only</label>
+  <div id="list"></div>
+</aside>
+<main>
+  <header>
+    <span id="tier" class="badge"></span>
+    <h1 id="title"></h1>
+    <span id="who"></span>
+    <span id="status"></span>
+  </header>
+  <video id="video" playsinline preload="auto"></video>
+  <div id="overview" class="bar"></div>
+  <div id="timeline" class="bar"></div>
+  <div id="rallybar" class="rallybar" hidden></div>
+  <div id="shots" class="shots"></div>
+  <div id="missing" class="missing" hidden></div>
+  <div id="confirm" class="confirm" hidden></div>
+  <section class="form">
+    <label>Match <select id="f-match"></select></label>
+    <label>Score at start <input id="f-score" placeholder="e.g. 13–14"></label>
+    <label>Outcome <select id="f-outcome"></select></label>
+    <label>Placement <select id="f-placement"></select></label>
+    <label>Won by <select id="f-won_by"></select></label>
+    <label>Difficulty <select id="f-difficulty"></select></label>
+    <label>Camera <select id="f-camera"></select></label>
+    <label>Crowd <select id="f-crowd"></select></label>
+    <div class="chips-row"><span>Build</span><div id="f-build" class="chips"></div></div>
+    <div class="chips-row"><span>Roles</span><div id="f-roles" class="chips"></div></div>
+    <label class="wide">Note <textarea id="f-note" rows="2"></textarea></label>
+  </section>
+  <div id="points"></div>
+  <footer id="help"></footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

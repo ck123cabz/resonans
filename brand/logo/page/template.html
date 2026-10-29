@@ -1,0 +1,331 @@
+<title>Resonans identity</title>
+<meta name="job" content="show">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: a lab bench sheet. One wide column of figures, each with a mono readout strip. */
+:root {
+  --bg: #0E1320; --surface: #151B2B; --fg: #EFE9DB; --muted: #8A93A6; --accent: #C4963F; --rule: #262E42;
+  --plate: #0E1320; --sand: #EFE9DB; --brass: #C4963F; --steel: #8A93A6;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #E9EBEF; --surface: #F6F7F9; --fg: #0E1320; --muted: #566076; --accent: #8A6417; --rule: #CBD0DA; color-scheme: light } }
+:root[data-theme="light"] {
+  --bg: #E9EBEF; --surface: #F6F7F9; --fg: #0E1320; --muted: #566076; --accent: #8A6417; --rule: #CBD0DA; color-scheme: light }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--fg); font: 400 16px/1.55 var(--body); padding-inline: clamp(16px, 4vw, 48px); padding-block: 40px 96px }
+.sheet { max-width: 1120px; margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 88px }
+section { min-width: 0 }
+svg { display: block; max-width: 100%; height: auto }
+h1, h2 { font-family: var(--display); font-weight: 700; letter-spacing: -0.02em; text-wrap: balance; margin: 0 }
+h1 { font-size: clamp(30px, 4.6vw, 54px); line-height: 1.04 }
+h2 { font-size: clamp(24px, 3vw, 34px); line-height: 1.1 }
+p { margin: 0; max-width: 62ch }
+.tag { font: 500 12px/1.3 var(--data); letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted) }
+.lead { color: var(--muted); font-size: 17px }
+figure { margin: 0 }
+figcaption { font: 400 13px/1.45 var(--data); color: var(--muted); margin-top: 12px; max-width: 70ch }
+.head { display: grid; gap: 10px; margin-bottom: 28px }
+.bench { background: var(--surface); border: 1px solid var(--rule); border-radius: 4px }
+
+/* hero */
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 64px); align-items: center }
+.hero-copy { display: grid; gap: 28px; min-width: 0 }
+.hero-copy .lock { width: min(100%, 440px); color: var(--fg) }
+.rig { display: grid; gap: 14px; min-width: 0 }
+.rig canvas { width: 100%; aspect-ratio: 1; display: block; border-radius: 4px; background: var(--plate); touch-action: none }
+.readout { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--rule); border-radius: 4px }
+.readout div { padding: 10px 12px; display: grid; gap: 2px; min-width: 0 }
+.readout div + div { border-left: 1px solid var(--rule) }
+.readout b { font: 500 17px/1.2 var(--data); font-variant-numeric: tabular-nums }
+.readout .tune { color: var(--accent) }
+.controls { display: flex; flex-wrap: wrap; gap: 14px 20px; align-items: center }
+.controls label { display: flex; align-items: center; gap: 10px; flex: 1 1 220px; min-width: 0 }
+input[type="range"] { flex: 1; min-width: 0; accent-color: var(--accent) }
+button { font: 500 14px/1 var(--body); color: var(--fg); background: transparent; border: 1px solid var(--muted); border-radius: 4px; padding: 10px 14px; cursor: pointer }
+button:hover { border-color: var(--accent); color: var(--accent) }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px }
+.check { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted) }
+.check input { accent-color: var(--accent) }
+
+/* grids */
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px }
+.wide { grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)) }
+.three { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 20px }
+.pad { padding: clamp(20px, 4vw, 44px); display: grid; place-items: center; min-height: 220px }
+.on-plate { background: var(--plate); color: var(--sand) }
+.on-sand { background: var(--sand); color: var(--plate) }
+.on-brass { background: var(--brass); color: var(--plate) }
+.tile { border-radius: 4px; border: 1px solid var(--rule); overflow: hidden; display: flex; flex-direction: column }
+.tile > :first-child { flex: 1 }
+.tile .foot { display: flex; justify-content: space-between; gap: 12px; padding: 10px 14px; font: 400 12px/1.3 var(--data); color: var(--muted); background: var(--surface); border-top: 1px solid var(--rule) }
+.sizes { display: flex; align-items: flex-end; gap: 28px; flex-wrap: wrap }
+.sizes svg { color: var(--plate) }
+.sizes div { display: grid; gap: 8px; justify-items: center; font: 400 12px/1 var(--data); color: var(--muted) }
+.construct { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(20px, 4vw, 56px); align-items: center }
+.construct .fig { color: var(--fg) }
+.eq { font: 400 clamp(13px, 1.6vw, 16px)/1.7 var(--data); padding: 16px 18px; overflow-x: auto; white-space: nowrap }
+.steps { display: grid; gap: 14px; padding: 0; margin: 0; list-style: none; counter-reset: s }
+.steps li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 10px; counter-increment: s }
+.steps li::before { content: counter(s); font: 500 13px/1.7 var(--data); color: var(--accent) }
+.swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 0; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden }
+.sw { padding: 20px 18px; min-height: 190px; display: grid; align-content: space-between; gap: 24px }
+.sw b { font: 700 22px/1 var(--display) }
+.sw span { font: 400 12px/1.5 var(--data); display: block }
+.modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(46%, 150px), 1fr)); gap: 14px }
+.modes canvas { width: 100%; aspect-ratio: 1; display: block; background: var(--plate) }
+.modes .is-mark { border-color: var(--accent) }
+.modes .is-mark .foot { color: var(--accent) }
+
+/* mockups */
+.slide { aspect-ratio: 16 / 9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; padding: 6% 8%; text-align: center }
+.slide svg { width: 52%; flex: none }
+.slide p { font: 400 clamp(10px, 1.5vw, 15px)/1.45 var(--body); max-width: 44ch; opacity: 0.8 }
+.site { display: grid }
+.site nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 18px; border-bottom: 1px solid rgb(14 19 32 / 0.14) }
+.site nav svg { width: 124px }
+.site nav span { display: flex; gap: 18px; align-items: center; font: 500 13px/1 var(--body) }
+.site nav i { font-style: normal; display: none }
+.site nav em { font-style: normal; background: var(--plate); color: var(--sand); padding: 9px 12px; border-radius: 3px }
+.site .body { padding: 34px 18px 40px; display: grid; gap: 12px }
+.site .body strong { font: 700 clamp(22px, 3vw, 30px)/1.08 var(--display); letter-spacing: -0.02em; max-width: 18ch }
+.site .body small { font-size: 13px; opacity: 0.7; max-width: 46ch }
+@media (min-width: 560px) { .site nav i { display: inline } }
+.card { aspect-ratio: 85 / 55; display: grid; align-content: space-between; padding: 9% 9%; }
+.card svg.m { width: 22% }
+.card svg.w { width: 44% }
+.card div { font: 500 13px/1.4 var(--body) }
+.card div span { display: block; font: 400 11px/1.4 var(--data); opacity: 0.7 }
+.avatars { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; justify-content: center }
+.avatars span { border-radius: 50%; display: grid; place-items: center; width: 96px; height: 96px }
+.avatars span svg { width: 58% }
+table { border-collapse: collapse; width: 100%; font-size: 14px }
+th, td { text-align: left; padding: 10px 14px 10px 0; border-bottom: 1px solid var(--rule); vertical-align: top }
+th { font: 500 12px/1.3 var(--data); letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted) }
+td:first-child { font-family: var(--data); font-size: 13px; white-space: nowrap }
+.scroll { overflow-x: auto }
+.open { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none }
+.open li { padding: 16px 18px; border: 1px solid var(--rule); border-radius: 4px; display: grid; gap: 4px }
+.open li b { font-weight: 500 }
+.open li span { color: var(--muted); font-size: 14px }
+@media (max-width: 760px) { .hero, .construct { grid-template-columns: minmax(0, 1fr) } .sheet { gap: 64px } }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><!--SYMBOLS--></defs></svg>
+
+<main class="sheet">
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="tag">Identity, first cut · 6 October 2026</span>
+    <svg class="lock" viewBox="/*VB:lockup-horizontal*/" role="img" aria-label="Resonans"><use href="#lockup-horizontal"/></svg>
+    <h1>The mark is sand on a ringing plate.</h1>
+    <p class="lead">Scatter sand on a brass plate and bow its edge. At a resonant pitch the sand slides off the moving parts and settles into one figure. Resonans uses the figure for mode 1 · 5.</p>
+  </div>
+  <div class="rig">
+    <canvas id="plate" width="900" height="900" role="img" aria-label="Sand settling into the Resonans mark on a vibrating plate"></canvas>
+    <div class="readout">
+      <div><span class="tag">Mode</span><b id="r-mode">1 · 5</b></div>
+      <div><span class="tag">Relative pitch</span><b id="r-pitch">26</b></div>
+      <div><span class="tag">State</span><b id="r-state" class="tune">The mark</b></div>
+    </div>
+    <div class="controls">
+      <label for="pitch"><span class="tag">Pitch</span><input id="pitch" type="range" min="0" max="5" step="0.01" value="1"></label>
+      <button id="scatter" type="button">Scatter sand</button>
+      <label class="check" for="overlay"><input id="overlay" type="checkbox">Trace the mark</label>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 1 · Lockups</span><h2>One mark, one word, one stroke weight</h2></div>
+  <div class="two wide">
+    <figure class="tile"><div class="pad on-sand"><svg viewBox="/*VB:lockup-horizontal*/" style="width:min(100%,420px)"><use href="#lockup-horizontal"/></svg></div><div class="foot"><span>Horizontal</span><span>primary</span></div></figure>
+    <figure class="tile"><div class="pad on-plate"><svg viewBox="/*VB:lockup-horizontal*/" style="width:min(100%,420px)"><use href="#lockup-horizontal"/></svg></div><div class="foot"><span>Horizontal, reversed</span><span>on plate</span></div></figure>
+    <figure class="tile"><div class="pad on-sand"><svg viewBox="/*VB:lockup-stacked*/" style="width:min(70%,260px)"><use href="#lockup-stacked"/></svg></div><div class="foot"><span>Stacked</span><span>square spaces</span></div></figure>
+    <figure class="tile"><div class="pad on-brass"><svg viewBox="/*VB:mark*/" style="width:min(46%,170px)"><use href="#mark"/></svg></div><div class="foot"><span>Mark alone</span><span>on brass</span></div></figure>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 2 · Construction</span><h2>Computed from the plate, drawn at letter weight</h2></div>
+  <div class="construct">
+    <div class="fig"><!--FIG:construction--></div>
+    <div style="display:grid;gap:22px;min-width:0">
+      <div class="bench eq">cos(πx/2)·cos(5πy/2) + cos(5πx/2)·cos(πy/2) = 0</div>
+      <ol class="steps">
+        <li>The equation gives every point of the plate that stays still in mode 1 · 5.</li>
+        <li>Rays from the centre cross those still lines. The first crossing makes the core, the second makes the ring.</li>
+        <li>48 crossings set the core and 96 set the ring, so both have exact four-fold symmetry.</li>
+        <li>Both curves take a stroke of 16 units, the same stroke as the letters.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 3 · Wordmark</span><h2>Six letters from a circle and a stem</h2></div>
+  <figure class="bench pad" style="min-height:0"><div style="width:min(100%,760px);color:var(--fg)"><!--FIG:parts--></div></figure>
+  <figcaption>Stems in brass, arcs in the text colour. The circle has a radius of 50 units and the x-height is 100. Round sides sit closer than stems: 62% of the stem-to-stem gap.</figcaption>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 4 · Space and size</span><h2>Clear space is half the mark</h2></div>
+  <div class="two">
+    <figure class="tile"><div class="pad on-sand"><!--FIG:clearspace--></div><div class="foot"><span>Clear space</span><span>½ mark on every side</span></div></figure>
+    <figure class="tile"><div class="pad on-sand">
+      <div class="sizes" style="color:#0E1320">
+        <div><svg viewBox="/*VB:mark*/" width="96"><use href="#mark"/></svg>96 px</div>
+        <div><svg viewBox="/*VB:mark*/" width="48"><use href="#mark"/></svg>48</div>
+        <div><svg viewBox="/*VB:mark*/" width="32"><use href="#mark-small"/></svg>32</div>
+        <div><svg viewBox="/*VB:mark*/" width="20"><use href="#mark-small"/></svg>20</div>
+        <div><svg viewBox="/*VB:mark*/" width="16"><use href="#mark-small"/></svg>16</div>
+      </div></div><div class="foot"><span>Small cut at 32 px and under</span><span>stroke 24, not 16</span></div></figure>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 5 · Colour</span><h2>A brass plate at night, with sand</h2></div>
+  <div class="swatches" id="swatches">
+    <div class="sw" style="background:#0E1320;color:#EFE9DB" data-hex="#0E1320"><b>Plate</b><span>#0E1320<br>ground, text on sand</span></div>
+    <div class="sw" style="background:#EFE9DB;color:#0E1320" data-hex="#EFE9DB"><b>Sand</b><span>#EFE9DB<br>ground, text on plate</span></div>
+    <div class="sw" style="background:#C4963F;color:#0E1320" data-hex="#C4963F"><b>Brass</b><span>#C4963F<br>one accent per layout</span></div>
+    <div class="sw" style="background:#8A93A6;color:#0E1320" data-hex="#8A93A6"><b>Steel</b><span>#8A93A6<br>captions and rules</span></div>
+  </div>
+  <figcaption id="contrast">Contrast against Plate: Sand 15.3 to 1, Brass 6.9 to 1, Steel 6.0 to 1.</figcaption>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 6 · The family</span><h2>Six modes of one plate</h2><p class="lead">Mode 1 · 5 is the mark. The other five are pattern for covers, slides and backgrounds.</p></div>
+  <div class="modes" id="modes"></div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Fig. 7 · In use</span><h2>Four places it has to work</h2></div>
+  <div class="two wide">
+    <figure class="tile"><div class="slide on-plate"><svg viewBox="/*VB:lockup-horizontal*/"><use href="#lockup-horizontal"/></svg><p>Resonans deconstructs complex workflows to their core components, then uses AI to engineer simple and scalable operational systems.</p></div><div class="foot"><span>Deck title slide</span><span>16 : 9</span></div></figure>
+    <figure class="tile"><div class="site on-sand"><nav><svg viewBox="/*VB:lockup-horizontal*/"><use href="#lockup-horizontal"/></svg><span><i>Cases</i><i>Process</i><em>Book an audit</em></span></nav><div class="body"><strong>Complex workflows, taken apart and rebuilt.</strong><small>Example header with a placeholder headline and 3 placeholder links.</small></div></div><div class="foot"><span>Site header</span><span>example</span></div></figure>
+    <figure class="tile"><div class="pad on-plate" style="padding:8%"><div class="card on-sand" style="width:min(100%,340px);border-radius:6px"><svg class="m" viewBox="/*VB:mark*/"><use href="#mark"/></svg><div>Christian Cabaluna<span>resonans</span></div></div></div><div class="foot"><span>Card</span><span>85 × 55 mm</span></div></figure>
+    <figure class="tile"><div class="pad on-sand"><div class="avatars"><span class="on-plate"><svg viewBox="/*VB:mark*/"><use href="#mark"/></svg></span><span class="on-brass"><svg viewBox="/*VB:mark*/"><use href="#mark"/></svg></span><span style="background:#0E1320;color:#C4963F"><svg viewBox="/*VB:mark*/"><use href="#mark"/></svg></span></div></div><div class="foot"><span>Avatars</span><span>96 px</span></div></figure>
+  </div>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Files</span><h2>What is in the folder</h2></div>
+  <div class="scroll"><table>
+    <thead><tr><th>File</th><th>Use</th></tr></thead>
+    <tbody>
+      <tr><td>final/mark.svg</td><td>The mark, 48 px and up</td></tr>
+      <tr><td>final/mark-small.svg</td><td>Heavier cut for 32 px and under</td></tr>
+      <tr><td>final/wordmark.svg</td><td>The word alone</td></tr>
+      <tr><td>final/lockup-horizontal.svg</td><td>Primary lockup; a reversed copy sits next to it</td></tr>
+      <tr><td>final/lockup-stacked.svg</td><td>Square and tall spaces</td></tr>
+      <tr><td>final/icon-app.svg, favicon.svg</td><td>App icon and browser tab</td></tr>
+      <tr><td>final/src/*-line.svg</td><td>Stroked curves, open these in Inkscape to move points by hand</td></tr>
+      <tr><td>final/png/</td><td>10 PNG exports, 16 px to 2000 px</td></tr>
+    </tbody>
+  </table></div>
+  <figcaption>All paths are under brand/logo/.</figcaption>
+</section>
+
+<section>
+  <div class="head"><span class="tag">Open</span><h2>Three calls only Christian can make</h2></div>
+  <ul class="open">
+    <li><b>Is Resonans still the AI operations agency from July 2025?</b><span>He wrote the title slide's line that month. A new meaning would need a new line and the same mark.</span></li>
+    <li><b>Brass, or another accent?</b><span>Nothing in his notes names a colour. Brass comes from the plate.</span></li>
+    <li><b>IBM Plex as the companion typeface?</b><span>This page sets text in Plex Sans and data in Plex Mono. Both are free under the Open Font License.</span></li>
+  </ul>
+</section>
+
+</main>
+
+<script>
+(() => {
+  const RINGS = "/*RINGS*/";
+  const MODES = [[1, 3], [1, 5], [3, 5], [1, 7], [3, 7], [5, 7]];
+  const A = Math.PI / 2, REACH = 0.86;
+  const move = (n, m, x, y) => Math.cos(n * A * x) * Math.cos(m * A * y) + Math.cos(m * A * x) * Math.cos(n * A * y);
+  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  const PLATE = css("--plate"), SAND = css("--sand"), BRASS = css("--brass");
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // the live plate
+  const cv = document.getElementById("plate"), ctx = cv.getContext("2d");
+  const slider = document.getElementById("pitch"), overlay = document.getElementById("overlay");
+  const N = 9000, px = new Float32Array(N), py = new Float32Array(N);
+  const ring = new Path2D(RINGS);
+  let pitch = 1;
+
+  function scatter() { for (let i = 0; i < N; i++) { px[i] = (Math.random() * 2 - 1) * 0.92; py[i] = (Math.random() * 2 - 1) * 0.92 } }
+  function amp(x, y) {
+    const i = Math.min(MODES.length - 2, Math.floor(pitch)), t = pitch - i;
+    const a = move(MODES[i][0], MODES[i][1], x, y);
+    return t < 0.001 ? a : (1 - t) * a + t * move(MODES[i + 1][0], MODES[i + 1][1], x, y);
+  }
+  // Sand hops at random. A hop to a stiller spot always sticks; a hop to a livelier
+  // spot rarely does. So grains drift off the moving parts and pile up on the still lines.
+  const EDGE = 0.92, HEAT = 0.03;
+  const lift = (x, y) => Math.abs(amp(x, y)) + Math.max(0, Math.max(Math.abs(x), Math.abs(y)) - 0.8) * 2;
+  function step(times) {
+    for (let k = 0; k < times; k++) for (let i = 0; i < N; i++) {
+      let x = px[i] + (Math.random() - 0.5) * 0.05, y = py[i] + (Math.random() - 0.5) * 0.05;
+      x = x > EDGE ? 2 * EDGE - x : x < -EDGE ? -2 * EDGE - x : x;
+      y = y > EDGE ? 2 * EDGE - y : y < -EDGE ? -2 * EDGE - y : y;
+      const rise = lift(x, y) - lift(px[i], py[i]);
+      if (rise <= 0 || Math.random() < Math.exp(-rise / HEAT)) { px[i] = x; py[i] = y }
+    }
+  }
+  function draw() {
+    const w = cv.width, h = w / 2, k = h * 0.97 / EDGE;
+    ctx.fillStyle = PLATE; ctx.fillRect(0, 0, w, w);
+    ctx.fillStyle = SAND;
+    for (let i = 0; i < N; i++) ctx.fillRect(h + px[i] * k - 1, h + py[i] * k - 1, 2.2, 2.2);
+    if (overlay.checked && Math.abs(pitch - 1) < 0.02) {
+      ctx.save(); ctx.translate(h, h); ctx.scale(k * REACH / 100, k * REACH / 100);
+      ctx.strokeStyle = BRASS; ctx.lineWidth = 2; ctx.globalAlpha = 0.9; ctx.stroke(ring); ctx.restore();
+    }
+  }
+  function readout() {
+    const near = Math.round(pitch), tuned = Math.abs(pitch - near) < 0.02, [n, m] = MODES[near];
+    const i = Math.min(MODES.length - 2, Math.floor(pitch)), t = pitch - i;
+    const q = (j) => MODES[j][0] ** 2 + MODES[j][1] ** 2;
+    document.getElementById("r-mode").textContent = tuned ? `${n} · ${m}` : "none";
+    document.getElementById("r-pitch").textContent = ((1 - t) * q(i) + t * q(i + 1)).toFixed(tuned ? 0 : 1);
+    const s = document.getElementById("r-state");
+    s.textContent = tuned ? (near === 1 ? "The mark" : "In tune") : "Between modes";
+    s.classList.toggle("tune", tuned);
+  }
+  let seen = true, raf = 0;
+  function loop() { raf = 0; if (!seen) return; step(1); draw(); raf = requestAnimationFrame(loop) }
+  function wake() { if (still) { step(140); draw() } else if (!raf) raf = requestAnimationFrame(loop) }
+  slider.addEventListener("input", () => { pitch = +slider.value; readout(); wake() });
+  slider.addEventListener("change", () => { const near = Math.round(pitch); if (Math.abs(pitch - near) < 0.12) { pitch = near; slider.value = near; readout(); wake() } });
+  document.getElementById("scatter").addEventListener("click", () => { scatter(); wake(); if (still) draw() });
+  overlay.addEventListener("change", draw);
+  new IntersectionObserver((e) => { seen = e[0].isIntersecting; if (seen) wake() }).observe(cv);
+  scatter(); step(140); draw(); readout();
+
+  // the family of modes
+  const host = document.getElementById("modes");
+  MODES.forEach(([n, m], idx) => {
+    const fig = document.createElement("figure"); fig.className = "tile" + (idx === 1 ? " is-mark" : "");
+    const c = document.createElement("canvas"); c.width = c.height = 240;
+    const g = c.getContext("2d"), img = g.createImageData(240, 240);
+    const p = PLATE.match(/\w\w/g).map((v) => parseInt(v, 16)), s = SAND.match(/\w\w/g).map((v) => parseInt(v, 16));
+    for (let j = 0; j < 240; j++) for (let i = 0; i < 240; i++) {
+      const v = Math.abs(move(n, m, i / 119.5 - 1, j / 119.5 - 1));
+      const k = Math.max(0, Math.min(1, (0.2 - v) / 0.05)), o = (j * 240 + i) * 4;
+      for (let ch = 0; ch < 3; ch++) img.data[o + ch] = p[ch] + (s[ch] - p[ch]) * k;
+      img.data[o + 3] = 255;
+    }
+    g.putImageData(img, 0, 0);
+    const foot = document.createElement("div"); foot.className = "foot";
+    foot.innerHTML = `<span>${n} · ${m}</span><span>pitch ${n * n + m * m}</span>`;
+    fig.append(c, foot); host.append(fig);
+  });
+})();
+</script>

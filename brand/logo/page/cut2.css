@@ -1,0 +1,19 @@
+/* Second cut only: the wide sand plate, the trace laid over it, and the readers' words. The rest comes from the first cut. */
+.hero2 { display: grid; gap: 28px }
+.hero2 .top { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(24px, 5vw, 64px); align-items: end }
+.hero2 .lock { width: min(100%, 520px); color: var(--fg) }
+.plate-wrap { position: relative }
+.plate-wrap canvas { width: 100%; aspect-ratio: 705 / 260; display: block; border-radius: 4px; background: var(--plate); touch-action: none }
+.plate-wrap .trace { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--brass); opacity: 0.9; pointer-events: none }
+.family { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px }
+.family .pad { min-height: 0; padding: 22px 26px }
+.family svg { width: 100% }
+.family .is-mark { border-color: var(--accent) }
+.family .is-mark .foot { color: var(--accent) }
+.said { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px; padding: 0; margin: 0; list-style: none }
+.said li { padding: 20px 22px; border: 1px solid var(--rule); border-radius: 4px; display: grid; gap: 14px; align-content: space-between }
+.said q { font: 500 19px/1.35 var(--display); quotes: "\201C" "\201D" }
+.said span { font: 400 12px/1.45 var(--data); color: var(--muted) }
+.avatars span svg.short { width: 70% }
+.card svg.l { width: 62% }
+@media (max-width: 760px) { .hero2 .top { grid-template-columns: minmax(0, 1fr) } }

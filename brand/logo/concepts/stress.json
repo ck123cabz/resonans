@@ -1,0 +1,86 @@
+{
+ "ringing": {
+  "Offset or digital print": 78.30916780076512,
+  "Letterpress": 117.37771079414452,
+  "Rubber stamp": 78.30916780076512,
+  "Thermal receipt, 203 dpi": 80.38088878755475,
+  "Screen print on a shirt": 274.24706046802584,
+  "Emboss or deboss": 391.4282279416163,
+  "Hot foil": 235.24388014402513,
+  "Screen print on a cap": 274.24706046802584,
+  "Embroidery": 496.7426198371176,
+  "Cut vinyl": null
+ },
+ "fine": {
+  "Offset or digital print": 13.570692246470726,
+  "Letterpress": 20.341127795346296,
+  "Rubber stamp": 19.18048519359718,
+  "Thermal receipt, 203 dpi": 16.832887181287884,
+  "Screen print on a shirt": 47.3711414877933,
+  "Emboss or deboss": 67.83307966561192,
+  "Hot foil": 57.4311866699944,
+  "Screen print on a cap": 67.17210551997626,
+  "Embroidery": 121.66857000773055,
+  "Cut vinyl": 306.4346074374035
+ },
+ "medium": {
+  "Offset or digital print": 7.565979021647591,
+  "Letterpress": 11.340655537764999,
+  "Rubber stamp": 8.994850021397042,
+  "Thermal receipt, 203 dpi": 8.076359102846553,
+  "Screen print on a shirt": 26.41052174927583,
+  "Emboss or deboss": 37.8185319070397,
+  "Hot foil": 26.932838530065066,
+  "Screen print on a cap": 31.398273963208695,
+  "Embroidery": 57.05750029215694,
+  "Cut vinyl": 143.7050891801862
+ },
+ "solid": {
+  "Offset or digital print": 2.2836717270387066,
+  "Letterpress": 3.4229984438998833,
+  "Rubber stamp": 4.606821900861034,
+  "Thermal receipt, 203 dpi": 3.073465880549129,
+  "Screen print on a shirt": 7.997662033744485,
+  "Emboss or deboss": 11.41492883169674,
+  "Hot foil": 13.793981011079365,
+  "Screen print on a cap": 16.13358180009311,
+  "Embroidery": 29.222693133183338,
+  "Cut vinyl": 73.60031023592843
+ },
+ "three echoes": {
+  "Offset or digital print": 34.7415372422026,
+  "Letterpress": 52.24438030149676,
+  "Rubber stamp": 69.62764879063904,
+  "Thermal receipt, 203 dpi": 57.05750029215694,
+  "Screen print on a shirt": 121.66857000773055,
+  "Emboss or deboss": 173.6555085514543,
+  "Hot foil": 208.4826559248291,
+  "Screen print on a cap": 243.8434546605702,
+  "Embroidery": 441.672688456572,
+  "Cut vinyl": null
+ },
+ "one echo": {
+  "Offset or digital print": 21.998628927354968,
+  "Letterpress": 32.973772760199665,
+  "Rubber stamp": 23.17800246017315,
+  "Thermal receipt, 203 dpi": 21.855490879233308,
+  "Screen print on a shirt": 77.04154554423751,
+  "Emboss or deboss": 109.96010531088298,
+  "Hot foil": 69.62764879063904,
+  "Screen print on a cap": 81.17183748389998,
+  "Embroidery": 147.02622934201426,
+  "Cut vinyl": 371.51106325818415
+ },
+ "plain": {
+  "Offset or digital print": 11.602747206075392,
+  "Letterpress": 17.391372481920047,
+  "Rubber stamp": 12.425928283729029,
+  "Thermal receipt, 203 dpi": 11.084484195165203,
+  "Screen print on a shirt": 40.63405861642534,
+  "Emboss or deboss": 57.99631008317597,
+  "Hot foil": 37.32798682387791,
+  "Screen print on a cap": 43.516926575816484,
+  "Embroidery": 79.07973074325257,
+  "Cut vinyl": 199.1703054044645
+ }
+}

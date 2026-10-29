@@ -1,0 +1,62 @@
+{
+ "full": {
+  "Offset or digital print": 24.82241414166126,
+  "Letterpress": 37.206347994211875,
+  "Rubber stamp": 29.800625790031916,
+  "Thermal receipt, 203 dpi": 26.153174270212908,
+  "Screen print on a shirt": 86.93074263527092,
+  "Emboss or deboss": 124.07479039265765,
+  "Hot foil": 89.52227482998126,
+  "Screen print on a cap": 104.36497095483173,
+  "Embroidery": 189.0358605953848,
+  "Cut vinyl": 477.66248157225004
+ },
+ "small": {
+  "Offset or digital print": 22.215095641444943,
+  "Letterpress": 33.298234992101506,
+  "Rubber stamp": 22.215095641444943,
+  "Thermal receipt, 203 dpi": 18.38365121227521,
+  "Screen print on a shirt": 77.79963507188242,
+  "Emboss or deboss": 111.04211377405753,
+  "Hot foil": 66.73503809617895,
+  "Screen print on a cap": 77.79963507188242,
+  "Embroidery": 140.91817240274233,
+  "Cut vinyl": 354.91667928937596
+ },
+ "plain": {
+  "Offset or digital print": 11.41492883169674,
+  "Letterpress": 17.165788572914494,
+  "Rubber stamp": 12.425928283729029,
+  "Thermal receipt, 203 dpi": 11.832212932899013,
+  "Screen print on a shirt": 39.976298630949856,
+  "Emboss or deboss": 57.244038556011446,
+  "Hot foil": 37.206347994211875,
+  "Screen print on a cap": 43.516926575816484,
+  "Embroidery": 78.82203760959123,
+  "Cut vinyl": 198.52127916664642
+ },
+ "avatar full": {
+  "Offset or digital print": 3.7874766000862192,
+  "Letterpress": 5.6770534726607895,
+  "Rubber stamp": 4.885588246072939,
+  "Thermal receipt, 203 dpi": 4.444354106611429,
+  "Screen print on a shirt": 13.264147140571835,
+  "Emboss or deboss": 18.931694660757234,
+  "Hot foil": 14.676502995362076,
+  "Screen print on a cap": 17.109851282694272,
+  "Embroidery": 30.99100619960859,
+  "Cut vinyl": 78.30916780076512
+ },
+ "avatar small": {
+  "Offset or digital print": 2.2986281659201384,
+  "Letterpress": 3.4454166690814034,
+  "Rubber stamp": 2.2986281659201384,
+  "Thermal receipt, 203 dpi": 1.939802232251772,
+  "Screen print on a shirt": 8.023808815202328,
+  "Emboss or deboss": 11.489688563310422,
+  "Hot foil": 6.88266964831186,
+  "Screen print on a cap": 8.023808815202328,
+  "Embroidery": 14.581007680679278,
+  "Cut vinyl": 36.72374356324585
+ }
+}
